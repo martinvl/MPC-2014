@@ -1,23 +1,26 @@
 Tomorrow is election day at MAPS and the time has come to choose a new leader for the organization.
-But how to pick a leader when every reasonable person would wish to be the new leader himself?
-For of course, in such a case, every candidate would simply vote for himself.
+But how to pick a leader when every reasonable person would wish to be the new leader?
+For of course, in such a case, every person at the election would simply vote for herself.
 
-Yang (the mathematician) suggests an easy process to pick the new leader:
+Yang (the mathematician) suggests an easy process to pick the new leader. It goes as follows:
 the $N$ candidates will place themselves at positions 1 through $N$ on a circle,
 and then every second person (starting at the second position)
 will consecutively be eliminated until there is only one candidate left.
 
-For example, if $N=5$ the candidates at position
-2, 4
-will be the first to be eliminated. Then those as positions
-1, 3
-follow, so the person position at 5 becomes the next leader.
 
+For example, if $N=5$ the candidate's positions are 1,2,3,4 and 5.
+The first candidates to be eliminated are at positions
+2, 4.
+Then those at positions
+1 and 3
+follow, so the person at position 5 becomes the next leader.
 
+The board is extremely happy they now have a way to choose the new leader!
+Little do they know of Yang's wicked plans.
 
-Yang knows all MAPPERS to be reasonable, but he is not sure how many persons will present themselves at the election.
+Yang knows all MAPPERS to be reasonable, but he is not sure how many persons will be present at the election.
 
-Given a list of $T$ possible number of candidates $N$, can you help Yang calculate a table telling him where to position himself for each $N$?
+Given a list of $T$ numbers, each a number of possible candidates $N$, can you help Yang calculate a table telling him where to position himself for each $N$?
 
 
 Input:
@@ -35,5 +38,6 @@ Large input:
 
 
 Output:
-For each entry $N$ in the table output the position $1<=i<=N$ where Yang would place himself.
+For each entry $N$ in the table output the position $i$ where Yang would place himself.
 
+$1<= i<= N$.
