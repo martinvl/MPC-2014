@@ -7,11 +7,11 @@ the $N$ candidates will place themselves at positions 1 through $N$ on a circle,
 and then every second person (starting at the second position)
 will consecutively be eliminated until there is only one candidate left.
 
-For example, if $N=5$ the candidates
+For example, if $N=5$ the candidates at position
 2, 4
-will be the first to be eliminated. Then
+will be the first to be eliminated. Then those as positions
 1, 3
-will be eliminated, so the person position at 5 would be the next leader.
+follow, so the person position at 5 becomes the next leader.
 
 
 
