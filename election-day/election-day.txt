@@ -1,0 +1,37 @@
+Tomorrow is election day at MAPS and the time has come to choose a new leader for the organization.
+But how to pick a leader when every reasonable person would wish to be the new leader themselves?
+Then every candidate would simply vote for himself.
+
+Yang (the mathematician) suggests an easy process to pick the new leader: the $N$ candidates will place themselves at positions 1 through $N$ on a circle,
+and then every second person (starting at the second candidate) will consecutively be eliminated until there is only one candidate left.
+
+For example, if $N=5$ the candidates
+2, 4
+will be the first to be eliminated. Then
+1, 3
+will be eliminated, so the person position at 5 would be the next leader.
+
+
+
+Yang knows all MAPPERS to be reasonable, but he is not sure how many persons will present themselves at the election.
+
+Given a list of $T$ possible number of candidates $N$, can you help Yang calculate a table telling him where to position himself for each $N$?
+
+
+Input:
+The first line of the input gives the number $T$ of entries in the table.
+$T$ entries follow, one for each line.
+Each entry consists of the possible number $N$ of candidates to participate in the election.
+
+1<= T <= 400
+
+Small input:
+1<= N <= 10^5
+
+Large input:
+1<= N <= 10^15
+
+
+Output:
+For each entry in the table output the position $i$ where Yang would place himself?
+
