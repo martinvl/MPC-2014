@@ -1,5 +1,5 @@
 
-#N log(N) solution (simulation)
+#Analytical solution
 import math;
 
 elim = [False];
