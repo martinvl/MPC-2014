@@ -1,10 +1,10 @@
 Tomorrow is election day at MAPS and the time has come to choose a new leader for the organization.
-But how to pick a leader when every reasonable person would wish to be the new leader?
-For of course, in such a case, every person at the election would simply vote for herself.
+However, how to pick a leader when every reasonable person wants to be the new leader?
+In such a case, every person at the election would simply vote for herself.
 
 Yang (the mathematician) suggests an easy process to pick the new leader. It goes as follows:
-the $N$ candidates will place themselves at positions 1 through $N$ on a circle,
-and then every second person (starting at the second position)
+the $N$ candidates will place themselves at positions 1 through $N$ on a line
+and then every second person (modulo $N$ and starting at the second position)
 will consecutively be eliminated until there is only one candidate left.
 
 
@@ -12,8 +12,8 @@ For example, if $N=5$ the candidate's positions are 1,2,3,4 and 5.
 The first candidates to be eliminated are at positions
 2, 4.
 Then those at positions
-1 and 3
-follow, so the person at position 5 becomes the next leader.
+1 and 5
+follow, so the person at position 3 becomes the next leader.
 
 The board is extremely happy they now have a way to choose the new leader!
 Little do they know of Yang's wicked plans.
@@ -42,3 +42,17 @@ Output:
 For each entry $N$ in the table output the position $i$ where Yang would place himself.
 
 $1<= i<= N$.
+
+
+
+Example input:
+3
+1
+3
+5
+
+Example output:
+1
+1
+3
+ 
