@@ -1,6 +1,6 @@
 Tomorrow is election day at MAPS and the time has come to choose a new leader for the organization.
-But how to pick a leader when every reasonable person would wish to be the new leader themselves?
-Then every candidate would simply vote for himself.
+But how to pick a leader when every reasonable person would wish to be the new leader himself?
+For of course, in such a case, every candidate would simply vote for himself.
 
 Yang (the mathematician) suggests an easy process to pick the new leader: the $N$ candidates will place themselves at positions 1 through $N$ on a circle,
 and then every second person (starting at the second candidate) will consecutively be eliminated until there is only one candidate left.
