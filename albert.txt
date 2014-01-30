@@ -1,6 +1,7 @@
 Albert is living on the number line in his hometown at the origo.
 One day he decides to go visit his friend Isaac who lives far far away in another town on the positive side of the line.
-Since the distance is so long, and the fuel tank on Albert's car is quite small, he is relying on buying more gas in the towns he visits on his way to Isaac.
+Since the distance is so long, and the fuel tank on Albert's car is quite small, 
+he is relying on buying more gas in the towns he visits on his way to Isaac.
 Each town has exactly one gas station, with a given gas price.
 The distance between some neighbour cities are quite big, 
 so Albert is worried that he may not be able to get to  Isaac's town at all.
@@ -15,7 +16,8 @@ The input start with one integer 0 =< L, the volume of the fuel tank on Albert's
 Then follows an integer 2 =< N, the number of towns between Albert's town and Isaac's town.
 Both Albert's town and Isaac's town are included.
 Finally follows N lines (one line for each town), with two integers.
-The first integer represents the position of the town on the number line, and the second integer represents the price per liter of gas in that town.
+The first integer represents the position of the town on the number line, 
+and the second integer represents the price per liter of gas in that town.
 The towns will be sorted by increasing position, and Isaac always lives in the Nth town.
 
 Output:
