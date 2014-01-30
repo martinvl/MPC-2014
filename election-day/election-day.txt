@@ -20,7 +20,8 @@ Little do they know of Yang's wicked plans.
 
 Yang knows all MAPPERS to be reasonable, but he is not sure how many persons will be present at the election.
 
-Given a list of $T$ numbers, each a number of possible candidates $N$, can you help Yang calculate a table telling him where to position himself for each $N$?
+Given a list of $T$ numbers, each a number of possible candidates $N$, 
+can you help Yang calculate a table telling him where to position himself for each $N$?
 
 
 Input:
