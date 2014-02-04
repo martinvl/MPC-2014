@@ -5,10 +5,10 @@ Johnny is working as the executive mathematician at NRK's _Påskenøtter_ divisi
 
 Since Johnny isn't particularily creative, his main focus has been to investigate the number of ways to fill out the board. A board consists of _r_ rows, each of which can have a different number of cells, _c<sub>i</sub>_. Johnny has also been experimenting with using different alphabets, so each cell can hold one of _n_ characters.
 
-Johnny has now come up with a lot of different combinations of boards and alphabets, but has no idea which one to choose. Since the goal is to make _Påskenøtter_ as difficult as possible, Johnny needs your help selecting the scheme which can be filled out in the largest number of ways.
+Johnny has now come up with a lot of different combinations of boards and alphabets, but has no idea which one to choose. Since the goal is to make _Påskenøtter_ as difficult as possible, Johnny needs your help selecting the scheme which has the largest number of possible solutions. Of course, most of these "solutions" won't be actual solutions, they'll just be gibberish, but we don't care about that for now.
 
 ## Input
-Input consts of _k_ lines.
+Input consists of _k_ lines.
 
 Each line starts with an integer _n_, the number of characters in the alphabet. Then follows _r_ integers _c<sub>i</sub>_, which describes how many cells there are in row _i_.
 
