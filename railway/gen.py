@@ -1,7 +1,7 @@
 from random import randint
 
 n = int(10e5)
-k = int(10e3)
+k = int(10e4)
 msg_types = ['blocked', 'opened', 'status']
 
 status = n*[0]
