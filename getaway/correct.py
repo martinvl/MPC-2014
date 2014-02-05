@@ -1,11 +1,10 @@
 from sys import stdin, exit
 
-lines = stdin.readlines()
-m, n = map(int, lines[0].split())
-bi, bj, ri, rj = map(int, lines[1].split())
+m, n = map(int, stdin.readline().split())
+bi, bj, ri, rj = map(int, stdin.readline().split())
 b = (bi, bj)
 r = (ri, rj)
-p = [map(int, line.split()) for line in lines[2:]]
+p = [map(int, line.split()) for line in stdin]
 
 visited = [n*[False] for i in xrange(m)]
 

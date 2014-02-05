@@ -11,10 +11,9 @@ def plot_grid(m, n):
     for j in xrange(n):
         plot([j, j], [0, m-1], 'k', hidden='on', daspect=[1,1,1])
 
-lines = stdin.readlines()
-m, n = map(int, lines[0].split())
-bi, bj, ri, rj = map(int, lines[1].split())
-p = [map(int, line.split()) for line in lines[2:]]
+m, n = map(int, stdin.readline().split())
+bi, bj, ri, rj = map(int, stdin.readline().split())
+p = [map(int, line.split()) for line in stdin]
 pi, pj = zip(*p)
 
 figure()

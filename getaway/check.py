@@ -1,9 +1,8 @@
 from sys import stdin
 
-lines = stdin.readlines()
-m, n = map(int, lines[0].split())
-bi, bj, ri, rj = map(int, lines[1].split())
-ps = [map(int, line.split()) for line in lines[2:]]
+m, n = map(int, stdin.readline().split())
+bi, bj, ri, rj = map(int, stdin.readline().split())
+ps = [map(int, line.split()) for line in stdin]
 
 prev = False
 visited = [n*[False] for i in xrange(m)]
