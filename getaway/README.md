@@ -5,7 +5,7 @@ Since Frank doesn't know when the police leave the police station (sometimes the
 
 In order to put a fair price on the job, Frank needs to now how far he has to go in order to make a safe getaway. Make a program that outputs the length (in meters) of the shortest possible route Frank can take from the bank to the rendezvous point, while still being safe. If no such route exists Frank should back away from the deal.
 
-![](getaway.png)
+![](../images/getaway.png)
 
 The streets in city Frank lives in are layed out as a grid. It consists of _n_ streets going west-east and _m_ streets going north-south. The streets have an even spacing of `10m`, so the distance from an intersection to any of its neighboring intersection is always `10m`.
 
