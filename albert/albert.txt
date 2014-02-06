@@ -33,7 +33,7 @@ Example 1 input:
 3 0
 
 Example 1 output:
-"Stay home"
+Stay home
 
 
 
