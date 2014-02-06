@@ -1,3 +1,5 @@
+from sys import stdin
+
 class Solver:
 
 	def __init__(self):
@@ -41,25 +43,26 @@ class Solver:
 
 	def ans(self, dist, price, L):
 		self.dist = dist; self.price = price; self.L = L;
+ 		if(L==0):
+			return "Stay home"; 
 		a = self.solve();
 		if(a >= 2**30):
 			return "Stay home";
 		return str(a);
 
-
 sol = Solver();
-
-#Case 1
-dist1 = [0, 3];
-price1 = [100, 0];
-L1=2;   
-
-print(sol.ans(dist1, price1, L1));
-
-#Case 2
-dist2 = [0,4, 6, 8, 18, 28];
-price2 = [6,3,9,5,2,0];
-L2 = 10;
-
-print(sol.ans(dist2, price2, L2));
+for line in stdin:
+	L = int(line);
+	line = stdin.next();
+	N = int(line);
+	dist = [];
+	price = [];
+	i=0;
+	while(i< N):
+		line = stdin.next();
+		ll = line.split();
+		dist.append(int(ll[0]));
+		price.append(int(ll[1]));
+		i +=1;
+	print(sol.ans(dist,price,L));
 
