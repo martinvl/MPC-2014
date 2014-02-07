@@ -1,5 +1,5 @@
 # Traveling Salesman
-<center><img src="../images/Directed_acyclic_graph.png" /></center>
+<center><img src="../images/Directed_acyclic_graph.gif" /></center>
 
 This is a story about an old salesman called Erlend. He loves to travel, but got an obsession. He always keeps
 a lists of the roads he are allowed to travel, and are not allowed to travel anywhere that is not on that list.
