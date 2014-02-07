@@ -1,7 +1,7 @@
-from sys import stdin, maxint
-from numpy import cumsum, array, max
+from sys import stdin
+from numpy import cumsum, arange, max
 
 n, v, b = map(int, stdin.readline().split())
 dist = cumsum(map(int, stdin.readline().split()))
 
-print dist[0] + max(v*b*(array(xrange(n)) + 1) - dist)
+print dist[0] + max(v*b*(arange(n) + 1) - dist)
