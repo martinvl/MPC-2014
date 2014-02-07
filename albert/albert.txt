@@ -1,29 +1,37 @@
-Albert is living on the number line in his hometown at the origo.
-One day he decides to go visit his friend Isaac who lives far far away in another town on the positive side of the line.
-Since the distance is so long, and the fuel tank on Albert's car is quite small, 
-he is relying on buying more gas in the towns he visits on his way to Isaac.
-Each town has exactly one gas station, with a given gas price.
-The distance between some neighbour cities are quite big, 
-so Albert is worried that he may not be able to get to  Isaac's town at all.
-And if he is able to get there, what will it cost?
+Albert the physicist is living on the number line in his hometown at the origo.
+One day he decides to go visit his friend, the mathematician Isaac,
+who lives in another town far far away on the positive side of the line. 
+
+Albert loves driving, so he decides to go by car,
+but since time is money, he will drive directly to Isaac without turning or backing up.
+The fuel tank on Albert's car is quite small, in fact, it can only take L liters of gas,
+therefore he may have to buy more gas in the towns he visits on his way.
+His car spends exactly one liter of gas per length unit.
 
 Albert starts from his hometown at x = 0 with an empty fuel tank.
-At each town he may buy as much fuel as he wants to, but he may not exceed the volume in the fuel tank. 
-The car spends exactly one liter of gas per length unit.
+Each town he visits has exactly one gas station, with a given fixed gas price.
+At each town he may buy as much fuel as he wants to, but he may not exceed the volume in the fuel tank.
+Albert's car is super efficient, and spends only one liter of gas per length unit.
+
+He knows that the distance between some of the neighboring cities are quite big,
+so Albert is worried that he may run out of gas at some point, and not be able to get to Isaac's town at all.
+And if he is able to get there, how much will the trip cost him?
+
 
 Input:
-The input start with one integer 0 =< L, the volume of the fuel tank on Albert's car.
-Then follows an integer 2 =< N, the number of towns between Albert's town and Isaac's town.
+The input start with one integer 0 =< L <= 20, the volume of the fuel tank on Albert's car.
+Then follows an integer 2 =< N <= 1000, the number of towns between Albert's town and Isaac's town.
 Both Albert's town and Isaac's town are included.
-Finally follows N lines (one line for each town), with two integers.
-The first integer represents the position of the town on the number line, 
-and the second integer represents the price per liter of gas in that town.
-The towns will be sorted by increasing position, and Isaac always lives in the Nth town.
+
+Finally follows $N$ lines, each representing a town, with two integers $0 <= D <= 1000$ and $0 <= P 10000$.
+$D$ is the position of the town on the number line, while $P$ is the price per liter of gas in the given town.
+The $N$ lines will be sorted by increasing $D$, and no two towns lie on the same point.
+Isaac always lives in the Nth town.
+
 
 Output:
-If it is not possible to reach the final city, output "Stay home".
-If it is possible to reach the final city, output the least amount of money Albert needs to spend.
-
+If Albert is not able to reach the Isaac's hometown, output the string "Stay home".
+If Albert is able to reach Isaac's hometown, output the least amount of money he needs to spend on the trip.
 
 
 Example 1 input:
@@ -34,7 +42,6 @@ Example 1 input:
 
 Example 1 output:
 Stay home
-
 
 
 Example 2 input:
@@ -49,6 +56,3 @@ Example 2 input:
 
 Example 2 output:
 94
-
-
-
