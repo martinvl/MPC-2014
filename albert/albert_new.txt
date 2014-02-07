@@ -12,13 +12,15 @@ At each town he may buy as much fuel as he wants to, but he may not exceed the v
 The car spends exactly one liter of gas per length unit.
 
 Input:
-The input start with one integer 0 =< L <= 50, the volume of the fuel tank on Albert's car.
+The input start with one integer 0 =< L <= 20, the volume of the fuel tank on Albert's car.
 Then follows an integer 2 =< N <= 1000, the number of towns between Albert's town and Isaac's town.
 Both Albert's town and Isaac's town are included.
 Finally follows N lines (one line for each town), with two integers.
-The first integer represents the position of the town on the number line, 
-and the second integer represents the price per liter of gas in that town.
+The first integer represents the position $d$ of the town on the number line, 
+and the second integer the price $p$ per liter of gas in that town.
 The towns will be sorted by increasing position, and Isaac always lives in the Nth town. No two towns lie at the same point.
+
+$p$ and $d$ satisfy $0<= p, d<= 1000$.
 
 Output:
 If it is not possible to reach the final city, output "Stay home".
