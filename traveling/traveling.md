@@ -1,4 +1,4 @@
-Traveling Salesman
+# Traveling Salesman
 
 This is a story about an old salesman called Erlend. He loves to travel, but got an obsession. He always keeps
 a lists of the roads he are allowed to travel, and are not allowed to travel anywhere that is not on that list.
@@ -7,30 +7,45 @@ means that the road from B to A is on that list.
 
 The question is: Is there any possibility for Erlend to visit all the cities and return to the city he starts?
 
-Input:
-Note: The cities are numbered from 0 to N-1.
-The input starts with N - numbers of cities (max 10 000)
-Followed by M - number of allowed roads on his list
-Followed by M lines with two integers, the one-way road from A to B.
+## Input:
+(Note: The cities are numbered from 0 to N-1.)
 
-Ouput:
-YES if he can visit all the cities and return, and NO otherwise.
+* The input starts with N - numbers of cities (max 10 000)
+* Followed by M - number of allowed roads on his list
+* Followed by M lines with two integers, the one-way road from A to B.
 
-Example 1 input:
-2
-2
-0 1
-1 0
+## Ouput:
 
-Example 1 output
-YES
+    YES 
+  
+if he can visit all the cities and return, and 
 
-Example 2 input
-3
-2
-0 1
-1 2
+    NO
+    
+otherwise.
 
-Example 2 output
-NO
+### Example 1:
 
+#### Input
+    
+    2
+    2
+    0 1
+    1 0
+
+#### Output
+
+    YES
+
+### Example 2:
+
+#### Input
+
+    3
+    2
+    0 1
+    1 2
+
+#### Output
+
+    NO
