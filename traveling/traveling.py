@@ -33,8 +33,6 @@ def bfs(start, e):
 
 vis1 = bfs(0, edges)
 vis2 = bfs(0, edges_reverse)
- 
-print vis1, vis2
 
 if vis1 + vis2 == 2*n:
 	print 'YES'
