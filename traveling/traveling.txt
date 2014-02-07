@@ -1,6 +1,9 @@
 traveling fiddle
 
-This is a story about an old fiddler called Tore. He loves to travel, but got an obsession. He always keeps a lists of the roads he are allowed to travel, and are not allowed to travel anywhere that is not on that list. The road is only one-way, that means that if the road from city A to city B is on that list, that does not necesserly means that the road from B to A is on that list.
+This is a story about an old fiddler called Tore. He loves to travel, but got an obsession. He always keeps 
+a lists of the roads he are allowed to travel, and are not allowed to travel anywhere that is not on that list. 
+The road is only one-way, that means that if the road from city A to city B is on that list, that does not necesserly 
+means that the road from B to A is on that list.
 
 The question is: Is there any possibility for Tore to visit all the cities and return to the city he starts.
 
