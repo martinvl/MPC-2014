@@ -1,7 +1,7 @@
 # Nuts
 Johnny is working as the executive mathematician at NRK's _Påskenøtter_ division. At NRK they have been struggling with having too many people solve all of the puzzles, and as a result they've asked Johnny to device new schemes for _Påskenøtter_.
 
-![](nuts.png)
+![](../images/nuts.png)
 
 Since Johnny isn't particularily creative, his main focus has been to investigate the number of ways to fill out the board. A board consists of _r_ rows, each of which can have a different number of cells, _c<sub>i</sub>_. Johnny has also been experimenting with using different alphabets, so each cell can hold one of _n_ characters.
 

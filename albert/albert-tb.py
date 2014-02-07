@@ -16,7 +16,7 @@ class Solver:
 	#when arriving at city i with l fuel in the tank.
 	#
 	#Complexity:
-	#O(N*L^2)
+	#O(N*L^3)
 	#
 	#Exists better dp performance??
 	def solve(self):
