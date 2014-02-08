@@ -4,6 +4,7 @@
 ##Albert##
 Problem: Vidar  
 Quality/solutions: Torgeir 
+Quality/solutions: Vidar
 
 ##Election day##
 Problem: Torgeir  
