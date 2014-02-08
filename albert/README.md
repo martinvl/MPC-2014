@@ -34,27 +34,27 @@ If Albert is not able to reach the Isaac's hometown, output the string "Stay hom
 If Albert is able to reach Isaac's hometown, output the least amount of money he needs to spend on the trip.
 
 ## Constraints
-0 &le; _L_ &le; 20 
+0 &le; _L_ &le; 20  
 2 &le; _N_ &le; 1000  
 0 &le; _D_ &le; 1000  
-0 &le; _P_ &le; 10000  
+0 &le; _P_ &le; 10000
 
 ## Example 1 input:
-``
+```
 2
 2
 0 100
 3 0
-``
+```
 
 ## Example 1 output:
-``
+```
 Stay home
-``
+```
 
 
 ## Example 2 input:
-``
+```
 10
 6
 0 6 
@@ -63,12 +63,12 @@ Stay home
 8 5
 18 2
 28 0
-``
+```
 
 ## Example 2 output:
-``
+```
 94
-``
+```
 
 
 
