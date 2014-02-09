@@ -16,7 +16,8 @@ Quality/solutions: Torgeir
 
 ## Exponentialist
 Problem: Ståle  
-Solution: Ståle
+Solution: Ståle  
+Solution: Martin
 
 ## Fiddle
 Problem: Jing  
