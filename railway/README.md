@@ -37,6 +37,7 @@ For each line containing a `status` message your program should output either `g
 4 status
 2 blocked
 2 status
+3 status
 4 blocked
 3 status
 4 opened
@@ -48,6 +49,7 @@ good service
 good service
 good service
 no service
+good service
 no service
 good service
 ```
