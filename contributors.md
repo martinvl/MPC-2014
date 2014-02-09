@@ -46,6 +46,7 @@ Solution: Martin
 
 ## RPS
 Problem: Ola
+Solution: Vidar
 
 ## Skiing
 Problem: Martin  
