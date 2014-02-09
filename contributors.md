@@ -11,7 +11,7 @@ Solution: Martin
 Solution: Erlend
 
 ## Chocolate
-Problem: Vidar
+Problem: Vidar  
 Solution: Vidar
 
 ## Election day
@@ -45,7 +45,7 @@ Problem: Martin
 Solution: Martin
 
 ## RPS
-Problem: Ola
+Problem: Ola  
 Solution: Vidar
 
 ## Skiing
