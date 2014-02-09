@@ -32,8 +32,8 @@ Output one number, the least number of splits needed to divide the original choc
 
 ## Example 1 input:
 ```
-2
 3
+2
 ```
 
 ## Example 1 output:
@@ -44,12 +44,12 @@ Output one number, the least number of splits needed to divide the original choc
 
 ## Example 2 input:
 ```
-3
+4
 4
 ```
 
 ## Example 2 output:
 ```
-11
+15
 ```
 
