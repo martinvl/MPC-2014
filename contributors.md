@@ -10,6 +10,10 @@ Problem: Martin
 Solution: Martin  
 Solution: Erlend
 
+## Chocolate
+Problem: Vidar
+Solution: Vidar
+
 ## Election day
 Problem: Torgeir  
 Quality/solutions: Torgeir
