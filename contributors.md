@@ -38,7 +38,8 @@ Problem: Martin
 Solution: Martin
 
 ## Playing dice
-Problem: Stian
+Problem: Stian  
+Solution: Vidar
 
 ## Railway
 Problem: Martin  
