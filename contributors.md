@@ -7,7 +7,8 @@ Quality/solutions: Vidar
 
 ## Bacterial
 Problem: Martin  
-Solution: Martin
+Solution: Martin  
+Solution: Erlend
 
 ## Election day
 Problem: Torgeir  
