@@ -13,7 +13,7 @@ with more than one piece, and divides it into two new chocolate bars by cutting
 along one of the separator lines. 
 The split process is done until all the pieces are separated.
 
-![](../images/chocolate_path.png)
+![](../images/chocolate.png)
 
 Given _R_ and _C_, what is the least number of splits needed to turn the
 original chocolate bar into _R_ * _C_ pieces.
