@@ -1,5 +1,11 @@
 #!/usr/bin/env python
 
+# Usage: check_rps.py input_file second_move second_move_friend.
+# input_file is the input file for the problem where the first move is given
+# for both you and your friend.
+# second_move is the output of your solution, containing your second move.
+# second_move_computer contains your friend's second move.
+
 ROCK = 0x1
 PAPER = 0x10
 SCISSORS = 0x100
@@ -61,7 +67,9 @@ if __name__ == '__main__':
                 pass
 
         if score < min_score:
-            print score, 'points not enough'
+            print score, 'points. Not enough points.'
+        else:
+            print score, 'points. Enough points.'
 
     test_in.close()
     solution_out.close()
