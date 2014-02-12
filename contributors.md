@@ -10,6 +10,10 @@ Problem: Martin
 Solution: Martin  
 Solution: Erlend
 
+## Burgers
+Problem: Martin  
+Solution: Martin
+
 ## Chocolate
 Problem: Vidar  
 Solution: Vidar
