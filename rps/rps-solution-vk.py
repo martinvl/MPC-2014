@@ -17,6 +17,8 @@ def beats(command):
 def answer(commands):
     if beats(commands[0]) == commands[1]:
         return commands[1]
+    elif beats(commands[1]) == commands[0]:
+        return commands[1]
     else:
         return beats(commands[0])
 
