@@ -3,6 +3,7 @@ Just calculating the best option for each of the three cases (win, loose and
 draw) on the first match by hand.
 """
 from sys import stdin
+import random
 
 
 def beats(command):
@@ -16,9 +17,17 @@ def beats(command):
 
 def answer(commands):
     if beats(commands[0]) == commands[1]:
-        return commands[1]
+        r = random.randint(0,2)
+        if r < 1:
+            return beats(commands[1])
+        else:
+            return commands[1]
     elif beats(commands[1]) == commands[0]:
-        return commands[1]
+        r = random.randint(0,2)
+        if r < 1:
+            return beats(beats(commands[1]))
+        else:
+            return commands[1]
     else:
         return beats(commands[0])
 
