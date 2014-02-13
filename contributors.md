@@ -41,6 +41,10 @@ Problem: Ola
 Problem: Martin  
 Solution: Martin
 
+## Package delivery
+Problem: Martin  
+Solution: Martin
+
 ## Playing dice
 Problem: Stian  
 Solution: Vidar
