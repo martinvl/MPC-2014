@@ -1,35 +1,76 @@
+# Problem overview
 
-#Problem overview#
-
-##Albert##
+## Albert
 Problem: Vidar  
-Quality/solutions: Torgeir 
+Quality/solutions: Torgeir  
+Quality/solutions: Vidar
 
-##Election day##
+## Bacterial
+Problem: Martin  
+Solution: Martin  
+Solution: Erlend
+
+## Burgers
+Problem: Martin  
+Solution: Martin
+
+## Chocolate
+Problem: Vidar  
+Solution: Vidar
+
+## Election day
 Problem: Torgeir  
-Quality/solutions: Torgeir 
+Quality/solutions: Torgeir
 
-##Hedge##
-Problem: Ola 
+## Exponentialist
+Problem: Ståle  
+Solution: Ståle  
+Solution: Martin
 
-##RPS##
-Problem: Ola 
-
-##Railway##
-Problem: Martin 
-
-##Nuts##
-Problem: Martin  
-
-##Bacterial##
-Problem: Martin  
-
-##Fiddle##
+## Fiddle
 Problem: Jing  
 
+## Getaway
+Problem: Martin  
+Solution: Martin
 
-##Playing dice##
+## Hedge
+Problem: Ola
+
+## Nuts
+Problem: Martin  
+Solution: Martin
+
+## Package delivery
+Problem: Martin  
+Solution: Martin
+
+## Playing dice
 Problem: Stian  
+Solution: Vidar
 
+## Qeuropark
+Problem: Martin  
+Solution: Martin
 
+## Railway
+Problem: Martin  
+Solution: Martin
 
+## RPS
+Problem: Ola  
+Solution: Vidar  
+Solution: Martin
+
+## Skiing
+Problem: Martin  
+Solution: Martin
+
+## Socks
+Problem: Vidar  
+Solution: Vidar  
+Solution: Martin
+
+## Traveling
+Problem: Jing  
+Solution: Jing (?)  

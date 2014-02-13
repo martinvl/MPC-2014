@@ -17,5 +17,9 @@ The following users are registered, they all have the password `z8zsri`.
 - `mousaka2410`
 - `matiasholte`
 - `HrKristiansen`
+- `leifhka`
+- `staalezh`
+- `helenens`
+- `olalia`
 
 Send Martin an email at <martinvl@math.uio.no> if you want to be on this list!

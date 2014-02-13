@@ -22,7 +22,7 @@ The first line of input contains a single integer _n_, the number of segments on
 Then follows _k_ lines, representing the messages. Each line contains an integer _i_, the index of the segment the message is referring to, and a word _w_, the type of message. _w_ will be either `blocked`, `opened` or `status`. There will only be issued `blocked` messages for segments that are already opened, and visa versa.
 
 ## Output specification
-For each line containing a `status` message your program should output either `reachable` or `unreachable`, according to the railway's current status.
+For each line containing a `status` message your program should output either `good service` or `no service`, according to the railway's current status.
 
 ## Constraints
 2 &le; _n_ &le; 10<sup>5</sup>  
@@ -36,6 +36,8 @@ For each line containing a `status` message your program should output either `r
 2 status
 4 status
 2 blocked
+2 status
+3 status
 4 blocked
 3 status
 4 opened
@@ -45,6 +47,8 @@ For each line containing a `status` message your program should output either `r
 ```
 good service
 good service
+good service
+no service
 good service
 no service
 good service
