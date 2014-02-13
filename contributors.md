@@ -67,7 +67,8 @@ Problem: Martin
 Solution: Martin
 
 ## Socks
-Problem: Viar
+Problem: Vidar  
+Solution: Vidar
 
 ## Traveling
 Problem: Jing  
