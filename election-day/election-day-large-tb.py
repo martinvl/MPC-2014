@@ -1,3 +1,4 @@
+# @EXPECTED_RESULTS@: CORRECT
 
 #Analytical solution
 import math;

@@ -1,3 +1,5 @@
+# @EXPECTED_RESULTS@: CORRECT
+
 """
 instead of calculating expected value, just add the side + 1 for each dice.
 Keep track of best pile at all time.

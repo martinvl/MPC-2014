@@ -1,3 +1,5 @@
+# @EXPECTED_RESULTS@: TIMELIMIT
+
 from sys import stdin
 from math import log
 

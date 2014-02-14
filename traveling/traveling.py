@@ -1,3 +1,5 @@
+# @EXPECTED_RESULTS@: CORRECT
+
 import numpy
 
 n = int(raw_input())

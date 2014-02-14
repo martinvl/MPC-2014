@@ -1,3 +1,5 @@
+# @EXPECTED_RESULTS@: CORRECT
+
 import sys
 
 d, t = [int(x) for x in sys.stdin.readline().split()]

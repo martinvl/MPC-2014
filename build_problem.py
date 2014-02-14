@@ -3,7 +3,7 @@
 """Builds a problem archive ready for upload to DOMJudge
 Problem directory must (at least) contain:
     * domjudge-problem.ini
-    * solution.py or solution.py3
+    * <probid>*.py or <probid>*.py3
     * README.md OR README.html
 
 Should also contain one or more pairs of <testcase>.in and <testcase>.out
@@ -48,28 +48,36 @@ def build_problem(probdir, report_errors=False):
         cleanup()
         return 1
 
+    config = RawConfigParser()
+    config.read('tmp/domjudge-problem.ini')
+    probid = config.get('DOMJudge', 'probid')
+    probname = config.get('DOMJudge', 'name')
 
-    if call(['cp %s/solution.py* tmp/' % probdir], shell=True, stderr=devnull):
+    solution = '%s*.py*' % probid
+
+    if call(['cp %s/%s*.py* tmp/' % (probdir, probid)], shell=True, stderr=devnull):
         if report_errors:
             print ''
-            print 'ERROR: "%s" must contain solution.py or solution.py3' % probdir
+            print 'ERROR: "%s" must contain one or more solutions' % probdir
         else:
             print 'Failed'
 
         cleanup()
         return 1
 
-    call(['cp %s/*.in tmp/' % probdir], shell=True, stderr=devnull)
-    call(['cp %s/*.out tmp/' % probdir], shell=True, stderr=devnull)
-
-    config = RawConfigParser()
-    config.read('tmp/domjudge-problem.ini')
+    if call(['cp %s/*.in tmp/' % probdir], shell=True, stderr=devnull) or\
+            call(['cp %s/*.out tmp/' % probdir], shell=True, stderr=devnull):
+        if report_errors:
+            print ''
+            print 'ERROR: "%s" must contain one or more testcases' % probdir
+        else:
+            print 'Failed'
 
     if call(['cp %s/README.html tmp/problem.html' % probdir], shell=True, stderr=devnull):
         if call(['cp %s/README.md tmp/' % probdir], shell=True, stderr=devnull):
             if report_errors:
                 print ''
-                print 'ERROR: "%s" must contain README.html or README.md' % probdir
+                print 'ERROR: "%s" must contain problem text' % probdir
             else:
                 print 'Failed'
 
@@ -94,7 +102,7 @@ def build_problem(probdir, report_errors=False):
 
         # fix title
         title_needle = '<title>tmp/README.md - Grip</title>'
-        title_replace = '<title>%s</title>' % config.get('DOMJudge', 'name')
+        title_replace = '<title>%s</title>' % probname
         prob_text = prob_text.replace(title_needle, title_replace)
 
         f.write(prob_text)
@@ -102,12 +110,13 @@ def build_problem(probdir, report_errors=False):
 
     files = ' '.join(['tmp/domjudge-problem.ini',
         'tmp/problem.html',
-        'tmp/solution.py*',
+        'tmp/%s' % solution,
+        'tmp/too-slow.py*',
         'tmp/*.in',
         'tmp/*.out'])
 
     call(['mkdir build'], shell=True, stderr=devnull)
-    call(['zip -j build/%s.zip %s' % (config.get('DOMJudge', 'probid'), files)], shell=True, stdout=devnull)
+    call(['zip -j build/%s.zip %s' % (probid, files)], shell=True, stdout=devnull)
 
     cleanup()
 

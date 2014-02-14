@@ -1,3 +1,5 @@
+# @EXPECTED_RESULTS@: CORRECT
+
 """
 Just calculating the best option for each of the three cases (win, loose and
 draw) on the first match by hand.

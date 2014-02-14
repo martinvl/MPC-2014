@@ -9,8 +9,7 @@ The following files must be present in the folder:
 - `README.md` (preferred) or `README.html`, containing the problem text  
 	If `README.html` doesn't exist, an HTML file will be generated from `README.md`  
 	Note: Images must be put in the `images` folder
-- `solution.py` or `solution.py3`, providing a reference solution used by DOMJudge for verifying  testcases  
-	This should simply be a symlink to a file with a more describing filename, for instance `bacterial-martinvl.py`
+- One or more reference solutions with filename on the form `<problem ID>*.py` or `<problem ID>*.py3`. This is used for automatically verifying testcases in DOMJudge. The first line of these files should be a magic string, such as `# @EXPECTED_RESULTS@: CORRECT`. Replace `CORRECT` with `WRONG-ANSWER`, `RUN-ERROR` or `TIMELIMIT` depending on what is appropriate.
 - One or more pairs of `<testcase>.in` and `<testcase>.out`
 
 ### Online judge

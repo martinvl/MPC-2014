@@ -1,3 +1,5 @@
+# @EXPECTED_RESULTS@: CORRECT
+
 from sys import stdin, exit
 
 m, n = map(int, stdin.readline().split())

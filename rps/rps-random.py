@@ -1,3 +1,5 @@
+# @EXPECTED_RESULTS@: WRONG-ANSWER
+
 from sys import stdin
 from random import randint
 

@@ -1,3 +1,5 @@
+# @EXPECTED_RESULTS@: CORRECT
+
 """
 Description: Greedy algorithm using the fact that the positions are integers
 and not doubles. Divides the number road/line into unit length segments. Then
