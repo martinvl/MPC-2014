@@ -49,7 +49,7 @@ Solution: Martin
 Problem: Stian  
 Solution: Vidar
 
-## Qeuropark
+## Qeuro
 Problem: Martin  
 Solution: Martin
 
