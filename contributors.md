@@ -68,7 +68,8 @@ Solution: Martin
 
 ## Socks
 Problem: Vidar  
-Solution: Vidar
+Solution: Vidar  
+Solution: Martin
 
 ## Traveling
 Problem: Jing  
