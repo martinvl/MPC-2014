@@ -86,8 +86,8 @@ def build_problem(probdir, report_errors=False):
         # center images
         img_head_needle = r' target="_blank"><img src="'
         img_head_replace = ' target="_blank"><center><img src="'
-        img_tail_needle = r' alt="" style="max-width:100%;"></a>'
-        img_tail_replace = ' alt="" style="max-width:100%;"></center></a>'
+        img_tail_needle = r' style="max-width:100%;"></a>'
+        img_tail_replace = ' style="max-width:100%;"></center></a>'
 
         prob_text = prob_text.replace(img_head_needle, img_head_replace)
         prob_text = prob_text.replace(img_tail_needle, img_tail_replace)
