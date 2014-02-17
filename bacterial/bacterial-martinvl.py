@@ -1,3 +1,5 @@
+# @EXPECTED_RESULTS@: CORRECT
+
 from sys import stdin
 from numpy import array, sum
 from scipy.ndimage import binary_dilation

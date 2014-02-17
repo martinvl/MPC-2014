@@ -1,3 +1,5 @@
+# @EXPECTED_RESULTS@: CORRECT
+
 from sys import stdin
 
 def parse_spatula(line):

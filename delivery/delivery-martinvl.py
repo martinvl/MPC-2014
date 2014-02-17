@@ -1,3 +1,5 @@
+# @EXPECTED_RESULTS@: CORRECT
+
 from sys import stdin, exit
 
 class SATProblem:
@@ -88,11 +90,9 @@ def get_possible_trucks(city):
 def get_var(package, truck):
     return package + n*truck
 
-for package, line in zip(xrange(n), stdin):
-    tokens = line.split()
-
-    truckA, truckB = get_possible_trucks(tokens[0])
-    incompatibilities = map(int, tokens[1:])
+for package, destination, line in zip(xrange(n), stdin.readline().split(), stdin):
+    truckA, truckB = get_possible_trucks(destination)
+    incompatibilities = map(int, line.split())
 
     # make sure we get on one of the two possible trucks
     p.add_clause(get_var(package, truckA), True, get_var(package, truckB), True)

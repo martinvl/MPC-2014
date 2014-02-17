@@ -49,13 +49,14 @@ Solution: Martin
 Problem: Stian  
 Solution: Vidar
 
-## Qeuropark
+## Qeuro
 Problem: Martin  
 Solution: Martin
 
 ## Railway
 Problem: Martin  
-Solution: Martin
+Solution: Martin 
+Solution: Vidar
 
 ## RPS
 Problem: Ola  

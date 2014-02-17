@@ -1,3 +1,5 @@
+# @EXPECTED_RESULTS@: CORRECT
+
 from sys import stdin, maxint
 
 n, v, b = map(int, stdin.readline().split())

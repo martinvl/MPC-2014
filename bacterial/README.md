@@ -7,25 +7,30 @@ Lisa is a lab technician working at Rikshospitalet testing blood samples. Testin
 Lately Lisa has been testing a lot of samples for the _Quatuor_ bacteria, which she has noticed grows in a very predictable way. If the petri dish is divided into a grid where each bacteria cell occupies a grid cell, the growth during one day can be described as follows: Each cell divides into five, such that there is a cell added north, south, east and west of the original cell. The only exceptions from this growth pattern is when any of these grid cells are already occupied of other cells, or are outside of boundary of the petri dish. The petri dishes are all circular.
 
 An example image series of such growth can be seen below.
-<pre><center>
-Day 1             Day 2             Day 3
-     ......            ......            ......     
-   ..........        ..........        ..........   
-  ............      ............      ......#.....  
- ..............    .......#......    ......###..... 
- .......#......    ......###.....    .....#####.... 
-................  ........#.......  .......###.#....
-................  ...........#....  ........#.###...
-...........#....  ..........###...  .........#####..
-................  ...........#....  ..........###...
-................  ................  ...........#....
-................  ................  .....#..........
- ..............    ....#.........    ...###........ 
- ....#.........    ...###........    ..#####....... 
-  ............      ...#........      ..###.......  
-   ..........        ..........        ..#.......   
-     ......            ......            ......     
-</center></pre>
+<pre>
++--------------------------------------------------------+
+|      Day 1       |      Day 2       |      Day 3       |
++------------------+------------------+------------------+
+|                  |                  |                  |
+|      ......      |      ......      |      ......      |
+|    ..........    |    ..........    |    ..........    |
+|   ............   |   ............   |   ......#.....   |
+|  ..............  |  .......#......  |  ......###.....  |
+|  .......#......  |  ......###.....  |  .....#####....  |
+| ................ | ........#....... | .......###.#.... |
+| ................ | ...........#.... | ........#.###... |
+| ...........#.... | ..........###... | .........#####.. |
+| ................ | ...........#.... | ..........###... |
+| ................ | ................ | ...........#.... |
+| ................ | ................ | .....#.......... |
+|  ..............  |  ....#.........  |  ...###........  |
+|  ....#.........  |  ...###........  |  ..#####.......  |
+|   ............   |   ...#........   |   ..###.......   |
+|    ..........    |    ..........    |    ..#.......    |
+|      ......      |      ......      |      ......      |
+|                  |                  |                  |
++--------------------------------------------------------+
+</pre>
 
 Instead of wasting time on performing tests she can predict the result for, Lisa has better things to do. Therefore she needs you to make a program that can predict the result of the test, given an image of the petri dish after day 1. To make sure her boss doesn't discover that she's not actually performing the tests, Lisa will vary the size (diameter) of the petri dishes, and the number of days between the initial and the final count.
 

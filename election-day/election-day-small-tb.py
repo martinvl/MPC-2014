@@ -1,3 +1,4 @@
+# @EXPECTED_RESULTS@: TIMELIMIT
 
 #N log(N) solution (simulation)
 

@@ -12,7 +12,9 @@ Your task is to create a program that calculates if it is possible to ship a giv
 ## Input specification
 The first line of input contains a single integer _n_, the number of packages.
 
-Then follows _n_ lines describing each package. The _i_-th line, describing package _i_, consists first of the destination of the package (either `Kristiansand`, `Bergen` or `Trondheim`). Then follows a list of up to _n_ - 1 distinct integers, the indices of the packages this package is incompatible with.
+Then follows a line containing _n_ words, the destination of each of the packages. The destination is either `Kristiansand`, `Bergen` or `Trondheim`.
+
+Then follows _n_ lines describing the incompatibility of the packages. The _i_-th line, describing package _i_, consists of a list of up to _n_ - 1 distinct integers. These are the indices of the packages package _i_ is incompatible with.
 
 Note that if package _i_ is incompatible with package _j_, then package _j_ is also incompatible with package _i_. A package cannot be incompatible with itself.
 
