@@ -1,3 +1,5 @@
+# @EXPECTED_RESULTS@: TIMELIMIT
+
 """
 Always keeping track of index of the lowest and highest broken segment.
 This makes status fast
