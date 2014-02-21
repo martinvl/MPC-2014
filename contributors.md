@@ -78,4 +78,8 @@ Solution: Martin
 
 ## Traveling
 Problem: Jing  
-Solution: Jing (?)  
+Solution: Jing (?)
+
+## Wired
+Problem: Martin  
+Solution: Martin
