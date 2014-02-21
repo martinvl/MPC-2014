@@ -4,7 +4,6 @@ from sys import stdin
 
 class Line:
     def __init__(self, x1, y1, x2, y2):
-        self.p = (x1, y1) # origin
         self.d = (x2 - x1, y2 - y1) # direction
 
     def par(self, l): # is parallell

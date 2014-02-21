@@ -4,15 +4,7 @@ from sys import stdin, exit
 
 class Line:
     def __init__(self, x1, y1, x2, y2):
-        self.p = (x1, y1) # origin
         self.d = (x2 - x1, y2 - y1) # direction
-
-    def has(self, x, y): # has point
-        dx, dy = self.d
-        sx = x - self.p[0]
-        sy = y - self.p[1]
-
-        return  sx*dy == sy*dx
 
     def par(self, l): # is parallell
         x, y = self.d
