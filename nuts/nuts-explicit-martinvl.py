@@ -11,7 +11,7 @@ max_val = float("-inf")
 for i, line in zip(xrange(K_MAX), stdin):
     nums = map(int, line.split())
     n = nums[0]
-    c = nums[0:]
+    c = nums[1:]
 
     val = sum(c)*log(n)
 
