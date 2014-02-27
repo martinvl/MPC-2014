@@ -69,6 +69,7 @@ Solution: Vidar
 ## RPS
 Problem: Ola  
 Solution: Vidar  
+Solution: Ola  
 Solution: Martin
 
 ## Skiing
