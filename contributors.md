@@ -40,7 +40,8 @@ Solution: Martin
 
 ## Getaway
 Problem: Martin  
-Solution: Martin
+Solution: Martin  
+Solution: Vidar
 
 ## Hedge
 Problem: Ola
@@ -63,7 +64,7 @@ Solution: Martin
 
 ## Railway
 Problem: Martin  
-Solution: Martin 
+Solution: Martin  
 Solution: Vidar
 
 ## RPS
