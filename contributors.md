@@ -48,7 +48,8 @@ Problem: Ola
 
 ## Nuts
 Problem: Martin  
-Solution: Martin
+Solution: Martin  
+Solution: Vidar
 
 ## Package delivery
 Problem: Martin  
