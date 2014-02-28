@@ -1,3 +1,5 @@
+# @EXPECTED_RESULTS@: TIMELIMIT
+
 import sys
 
 n = int(sys.stdin.readline())

@@ -30,16 +30,26 @@ Solution: Martin
 ## Fiddle
 Problem: Jing  
 
-## Getaway
+## Flaps
 Problem: Martin  
 Solution: Martin
+
+## Flaps2
+Problem: Martin  
+Solution: Martin
+
+## Getaway
+Problem: Martin  
+Solution: Martin  
+Solution: Vidar
 
 ## Hedge
 Problem: Ola
 
 ## Nuts
 Problem: Martin  
-Solution: Martin
+Solution: Martin  
+Solution: Vidar
 
 ## Package delivery
 Problem: Martin  
@@ -55,12 +65,13 @@ Solution: Martin
 
 ## Railway
 Problem: Martin  
-Solution: Martin 
+Solution: Martin  
 Solution: Vidar
 
 ## RPS
 Problem: Ola  
 Solution: Vidar  
+Solution: Ola  
 Solution: Martin
 
 ## Skiing
@@ -74,4 +85,8 @@ Solution: Martin
 
 ## Traveling
 Problem: Jing  
-Solution: Jing (?)  
+Solution: Jing (?)
+
+## Wired
+Problem: Martin  
+Solution: Martin

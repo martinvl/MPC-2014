@@ -102,7 +102,7 @@ def build_problem(probdir, report_errors=False):
 
         # fix title
         title_needle = '<title>tmp/README.md - Grip</title>'
-        title_replace = '<title>%s</title>' % probname
+        title_replace = '<title>%s</title>' % probname.replace('"', '')
         prob_text = prob_text.replace(title_needle, title_replace)
 
         f.write(prob_text)

@@ -26,7 +26,7 @@ For each line containing a `status` message your program should output either `g
 
 ## Constraints
 2 &le; _n_ &le; 10<sup>5</sup>  
-0 &le; _k_ &le; 10<sup>3</sup>  
+0 &le; _k_ &le; 10<sup>5</sup>  
 0 &le; _i_ < _n_
 
 ## Sample input
