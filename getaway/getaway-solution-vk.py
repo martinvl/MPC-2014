@@ -1,5 +1,7 @@
 import Queue
+import pprint
 from sys import stdin
+pp = pprint.PrettyPrinter(indent=4)
 
 # This solution uses A* search
 
@@ -36,11 +38,11 @@ def insideCity(x, y):
 
 # creating priority queue and inserting the tuple representing the bank
 # tuples have three coordinates:
-# 1: distance to bank + assumed distance to goal
+# 1: (distance to bank + assumed distance to goal , assumed distance to goal)
 # 2: distance from bank
 # 3: coordinates of point
 pq = Queue.PriorityQueue()
-pq.put((h(b1, b2), 0, (b1, b2)))
+pq.put(((h(b1, b2), h(b1, b2)), 0, (b1, b2)))
 city[b1][b2] = 2
 
 result = "no deal"
@@ -49,7 +51,7 @@ while not pq.empty():
 
     # check if the goal is reached
     if item[2] == (r1, r2):
-        result = item[0]*10
+        result = item[0][0]*10
         break
 
     # for each direction add to priority queue if not visited before
@@ -59,6 +61,6 @@ while not pq.empty():
         if insideCity(p1, p2):
             if city[p1][p2] != 1 and city[p1][p2] != 2:
                 city[p1][p2] = 2
-                pq.put((item[1] + h(p1, p2) + 1, item[1] + 1, (p1, p2)))
+                pq.put(((item[1] + h(p1, p2) + 1, h(p1, p2)), item[1] + 1, (p1, p2)))
 
 print result
