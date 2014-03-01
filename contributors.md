@@ -76,7 +76,8 @@ Solution: Martin
 
 ## Skiing
 Problem: Martin  
-Solution: Martin
+Solution: Martin  
+Solution: Vidar
 
 ## Socks
 Problem: Vidar  
