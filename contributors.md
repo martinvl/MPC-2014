@@ -6,8 +6,8 @@ Quality/solutions: Torgeir
 Quality/solutions: Vidar
 
 ## Bacterial
-Algorithm: Simulation
-Difficulty: Medium
+Algorithm: Simulation  
+Difficulty: Medium  
 Problem: Martin  
 Solution: Martin  
 Solution: Erlend
