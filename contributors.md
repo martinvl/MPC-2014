@@ -80,6 +80,10 @@ Solution: Martin
 Problem: Martin  
 Solution: Martin
 
+## Sixpack2
+Problem: Martin  
+Solution: Martin
+
 ## Skiing
 Problem: Martin  
 Solution: Martin  
