@@ -76,6 +76,10 @@ Solution: Vidar
 Solution: Ola  
 Solution: Martin
 
+## Sixpack
+Problem: Martin  
+Solution: Martin
+
 ## Skiing
 Problem: Martin  
 Solution: Martin  
