@@ -6,6 +6,8 @@ Quality/solutions: Torgeir
 Quality/solutions: Vidar
 
 ## Bacterial
+Algorithm: Simulation  
+Difficulty: Medium  
 Problem: Martin  
 Solution: Martin  
 Solution: Erlend
@@ -72,6 +74,14 @@ Solution: Vidar
 Problem: Ola  
 Solution: Vidar  
 Solution: Ola  
+Solution: Martin
+
+## Sixpack
+Problem: Martin  
+Solution: Martin
+
+## Sixpack2
+Problem: Martin  
 Solution: Martin
 
 ## Skiing
