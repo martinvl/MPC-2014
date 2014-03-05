@@ -8,13 +8,15 @@ Quality/solutions: Torgeir
 Quality/solutions: Vidar
 
 ## Bacterial
-Algorithm: Simulation  
+Algorithm: Simulation/Binary morphology  
 Difficulty: Medium  
 Problem: Martin  
 Solution: Martin  
 Solution: Erlend
 
 ## Burgers
+Algorithm: Brute-force (slow)/Row reduction (fast), both accepted  
+Difficulty: Medium  
 Problem: Martin  
 Solution: Martin
 
@@ -29,6 +31,8 @@ Problem: Torgeir
 Quality/solutions: Torgeir
 
 ## Exponentialist
+Algorithm: Exponentiation by squaring/Built-in `pow`  
+Difficulty: Medium/very easy  
 Problem: Ståle  
 Solution: Ståle  
 Solution: Martin
@@ -37,14 +41,20 @@ Solution: Martin
 Problem: Jing  
 
 ## Flaps
+Algorithm: Analytical/Numerical integration  
+Difficulty: Medium  
 Problem: Martin  
 Solution: Martin
 
 ## Flaps2
+Algorithm: Analytical/Numerical integration + binary search  
+Difficulty: Hard  
 Problem: Martin  
 Solution: Martin
 
 ## Getaway
+Algorithm: BFS with predefined visits  
+Difficulty: Medium  
 Problem: Martin  
 Solution: Martin  
 Solution: Vidar
@@ -53,11 +63,15 @@ Solution: Vidar
 Problem: Ola
 
 ## Nuts
+Algorithm: Analytical  
+Difficulty: Medium  
 Problem: Martin  
 Solution: Martin  
 Solution: Vidar
 
 ## Package delivery
+Algorithm: 2SAT
+Difficulty: Hard
 Problem: Martin  
 Solution: Martin
 
@@ -68,10 +82,14 @@ Problem: Stian
 Solution: Vidar
 
 ## Qeuro
+Algorithm: Check if line is `'Complaint'`  
+Difficulty: Super easy (_the_ easiest)  
 Problem: Martin  
 Solution: Martin
 
 ## Railway
+Algorithm: Sorted set/Priority queue/Fenwick Tree  
+Difficulty: Hard-ish  
 Problem: Martin  
 Solution: Martin  
 Solution: Vidar
@@ -83,14 +101,20 @@ Solution: Ola
 Solution: Martin
 
 ## Sixpack
+Algorithm: Divisibility check, modulo is accepted  
+Difficulty: Easy  
 Problem: Martin  
 Solution: Martin
 
 ## Sixpack2
+Algorithm: Analytical divisibility check, modulo is too slow  
+Difficulty: Medium  
 Problem: Martin  
 Solution: Martin
 
 ## Skiing
+Algorithm: Apply formula, find max of vector  
+Difficulty: Medium  
 Problem: Martin  
 Solution: Martin  
 Solution: Vidar
@@ -107,5 +131,7 @@ Problem: Jing
 Solution: Jing (?)
 
 ## Wired
+Algorithm: Check if all lines either parallell or normal (integer precision required), this is (exactly) one equivalence class so O(n) comparison is required  
+Difficulty: Medium  
 Problem: Martin  
 Solution: Martin
