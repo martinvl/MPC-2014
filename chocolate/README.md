@@ -11,7 +11,8 @@ Sverre has to divide it into _R_ * _C_ pieces by doing splits.
 A split is a simple process. Sverre picks one of the existing chocolate bars
 with more than one piece, and divides it into two new chocolate bars by cutting
 along one of the separator lines. 
-The split process is done until all the pieces are separated. The image below show how to separate all the pieces in a 3x2 chocolate bar in 5 splits.
+The split process is done until all the pieces are separated. The image below 
+shows how to separate all the pieces in a 3x2 chocolate bar with 5 splits.
 
 ![](../images/chocolate.png)
 
