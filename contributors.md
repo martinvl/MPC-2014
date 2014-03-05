@@ -28,7 +28,8 @@ Solution: Vidar
 
 ## Election day
 Problem: Torgeir  
-Quality/solutions: Torgeir
+Quality/solutions: Torgeir  
+Solution: Vidar
 
 ## Exponentialist
 Algorithm: Exponentiation by squaring/Built-in `pow`  
