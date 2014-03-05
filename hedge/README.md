@@ -2,6 +2,8 @@
 
 So you find yourself trapped in the (0,0) square of a rectangular _X_ times _Y_ hedge maze that is divided into unit squares.  You want to get to the exit which is in _(X-1, Y-1)_.  Being a bit excentric, you will always increase exactly one of your coordinates by 1 at each step, minimizing the total number of steps. This makes things a bit difficult, but luckily, you also have a team of self sacrificing heroes with you, so whenever you encounter a wall, you may leave one hero behind to help all the others climb over.
 
+![](../images/hedge.png)
+
 Now, what you would like to know is exactly how many of you can reach the exit this way.
 
 ## Input specification:
