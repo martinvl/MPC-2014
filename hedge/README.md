@@ -6,10 +6,10 @@ So you find yourself trapped in the (0,0) square of a rectangular _X_ times _Y_ 
 
 Now, what you would like to know is exactly how many of you can reach the exit this way.
 
-## Input specification:
+## Input:
 The first line of input contains a single integer _T_, denoting the number of test cases.  Then for each test case there will be a line containing 3 integers, _X_, _Y_ and _M_, denoting dimensions of the maze, and the number of heroes (including you).   The following _X_ lines containins _Y-1_ numbers that are all 0 or 1.  There is a hedge between square (i,j) and (i,j+1) if and only if the j'th number on the i'th line is 1.  Then follows _X-1_ lines with _Y_ numbers on each line, telling that there is a hedge between (i,j) and (i+1, j) if and only if the j'th number on the i'th line is 1.
 
-## Output specification:
+## Output:
 For each test case, output one number on a single line, the maximal number of heroes that may reach the goal.
 
 ## Constraints
@@ -18,6 +18,7 @@ For each test case, output one number on a single line, the maximal number of he
 2 &le; _M_ &le; 10<sup>9</sup>
 
 ## Sample input
+```
 2  
 3 3 4  
 1 0  
@@ -31,8 +32,11 @@ For each test case, output one number on a single line, the maximal number of he
 1  
 1 1  
 1 1  
+```
 
 ## Sample output
+```
 3  
 0  
+```
 
