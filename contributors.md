@@ -1,6 +1,8 @@
 # Problem overview
 
 ## Albert
+Algorithm:  
+Difficulty: Medium  
 Problem: Vidar  
 Quality/solutions: Torgeir  
 Quality/solutions: Vidar
@@ -17,6 +19,8 @@ Problem: Martin
 Solution: Martin
 
 ## Chocolate
+Algorithm: No programming. Multiply two numbers.  
+Difficulty: Very easy  
 Problem: Vidar  
 Solution: Vidar
 
@@ -58,6 +62,8 @@ Problem: Martin
 Solution: Martin
 
 ## Playing dice
+Algorithm: Probability, expected value  
+Difficulty: Medium  
 Problem: Stian  
 Solution: Vidar
 
@@ -90,6 +96,8 @@ Solution: Martin
 Solution: Vidar
 
 ## Socks
+Algorithm: Count frequency in list.  
+Difficulty: Easy  
 Problem: Vidar  
 Solution: Vidar  
 Solution: Martin
