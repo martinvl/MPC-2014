@@ -21,12 +21,14 @@ Problem: Martin
 Solution: Martin
 
 ## Chocolate
-Algorithm: No programming. Multiply two numbers.  
+Algorithm: No programming. Multiply two numbers. (DP is possible, but not good.)  
 Difficulty: Very easy  
 Problem: Vidar  
 Solution: Vidar
 
 ## Election day
+Algorithm: Simulation or pure mathematics.  
+Difficulty:  
 Problem: Torgeir  
 Quality/solutions: Torgeir  
 Solution: Vidar
@@ -61,7 +63,10 @@ Solution: Martin
 Solution: Vidar
 
 ## Hedge
-Problem: Ola
+Algorithm: DP  
+Difficulty: Medium  
+Problem: Ola  
+Solution: Vidar  
 
 ## Nuts
 Algorithm: Analytical  
@@ -71,8 +76,8 @@ Solution: Martin
 Solution: Vidar
 
 ## Package delivery
-Algorithm: 2SAT
-Difficulty: Hard
+Algorithm: 2SAT  
+Difficulty: Hard  
 Problem: Martin  
 Solution: Martin
 
@@ -96,6 +101,8 @@ Solution: Martin
 Solution: Vidar
 
 ## RPS
+Algorithm: Probability, analytical  
+Difficulty: Pretty hard  
 Problem: Ola  
 Solution: Vidar  
 Solution: Ola  
