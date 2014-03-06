@@ -24,7 +24,7 @@
         <h1>
 <a name="albert" class="anchor" href="#albert"><span class="octicon octicon-link"></span></a>Albert</h1>
 
-<p>Albert the physicist is living on the number line in his hometown at the origo.
+<p>Albert the physicist lives on the number line in his hometown at the origo.
 One day he decides to go visit his friend, the mathematician Isaac,
 who lives in another town far far away on the positive side of the line. </p>
 
@@ -36,8 +36,7 @@ His car spends exactly one liter of gas per length unit.</p>
 
 <p>Albert starts from his hometown at x = 0 with an empty fuel tank.
 Each town he visits has exactly one gas station, with a given fixed gas price.
-At each town he may buy as much fuel as he wants to, but he may not exceed the volume in the fuel tank.
-Albert's car is super efficient, and spends only one liter of gas per length unit.</p>
+At each town he may buy as much fuel as he wants to, but he must of course not exceed the volume in the fuel tank.</p>
 
 <p>He knows that the distance between some of the neighboring cities are quite big,
 so Albert is worried that he may run out of gas at some point, and not be able to get to Isaac's town at all.
@@ -50,15 +49,15 @@ And if he is able to get there, how much will the trip cost him?</p>
 Then follows an integer <em>N</em>, the number of towns between Albert's town and Isaac's town. (Both Albert's town and Isaac's town are included.)</p>
 
 <p>Finally follows <em>N</em> lines, each representing a town, with two integers <em>D</em> and <em>P</em>.
-<em>D</em> is the position of the town on the number line, while <em>P</em> is the price per liter of gas in the given town.
+<em>D</em> is the position of the town on the number line, while <em>P</em> is the price per liter of gas in that town.
 The <em>N</em> lines will be sorted by increasing <em>D</em>, and no two towns lie on the same point.
-Isaac always lives in the Nth town.</p>
+Isaac always lives in the last town.</p>
 
 <h2>
 <a name="output-specification" class="anchor" href="#output-specification"><span class="octicon octicon-link"></span></a>Output specification:</h2>
 
-<p>If Albert is not able to reach the Isaac's hometown, output the string "Stay home".
-If Albert is able to reach Isaac's hometown, output the least amount of money he needs to spend on the trip.</p>
+<p>If Albert is able to reach Isaac's hometown, output the least amount of money he needs to spend on the trip.
+Otherwise, output the string "Stay home".</p>
 
 <h2>
 <a name="constraints" class="anchor" href="#constraints"><span class="octicon octicon-link"></span></a>Constraints</h2>
