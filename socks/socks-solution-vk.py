@@ -12,21 +12,15 @@ for test_case in range(N):
         frequency[label] = 1
 
 socksess = True
-removeList = []
+remove_list = []
 for label in frequency.keys():
     if frequency[label] == 1:
-        removeList.append(label)
+        remove_list.append(label)
         socksess = False
 
 if socksess:
     print "Sock-sess"
 else:
-    removeList.sort()
-    for label in removeList:
+    remove_list.sort()
+    for label in remove_list:
         print label
-
-
-
-
-
-

@@ -30,16 +30,16 @@
 
 <p>With a drawer full of black socks, it is very hard to find matching pairs, so Matias has come up with a very smart system. Every time he buys a new pair of socks, he picks a random word and make sure that both of the new socks are marked with that word. This way, he can check easily if two socks are a match, simply by looking at the word written on the socks. Once in a while he buys many socks that are all equal. Then it does not really matter which of them he pairs together, so he marks them all with the same word.</p>
 
-<p>Like every other person, Matias has a washing machine which eats socks. So after he has washed them, he collects them all to throw away socks that can not be paired together with any other sock anymore. Matias wants make a program which does this for him, but since he is not very good with algorithms (he only configures servers at work), he asks you to help him. Of course he wants to throw away as few socks as possible.</p>
+<p>Like every other person, Matias has a washing machine which eats socks. So every time he has washed them, he collects them all to throw away socks that can not be paired together with any other sock anymore. Matias wants to make a program to do this boring task for him, but since he is not very good with algorithms (he only configures servers at work), he asks you to help him. Help Matias to throw away as few socks as possible while making sure that each remaining sock can be paired with at least one other sock.</p>
 
 <h2>
-<a name="input-specification" class="anchor" href="#input-specification"><span class="octicon octicon-link"></span></a>Input specification:</h2>
+<a name="input" class="anchor" href="#input"><span class="octicon octicon-link"></span></a>Input:</h2>
 
 <p>The first line of input contains one integer <em>N</em>, the number of socks Matias has.
-Then follows N lines with one string on each line. The string on line <em>i</em> represents the text written on the <em>i</em>'th sock. The strings will only contain the lowercase letters a-z.</p>
+Then follows N lines contains one string. The string on line <em>i</em> represents the text written on the <em>i</em>'th sock. The strings will only contain the lowercase letters from the english alphabet.</p>
 
 <h2>
-<a name="output-specification" class="anchor" href="#output-specification"><span class="octicon octicon-link"></span></a>Output specification:</h2>
+<a name="output" class="anchor" href="#output"><span class="octicon octicon-link"></span></a>Output:</h2>
 
 <p>Output a list sorted alphabetically with all the socks Matias has to remove. If he does not need to remove any socks, output "Sock-sess"</p>
 
@@ -49,7 +49,7 @@ Then follows N lines with one string on each line. The string on line <em>i</em>
 <p>1 ≤ <em>N</em> ≤ 100000  </p>
 
 <h2>
-<a name="example-1-input" class="anchor" href="#example-1-input"><span class="octicon octicon-link"></span></a>Example 1 input:</h2>
+<a name="sample-input-1" class="anchor" href="#sample-input-1"><span class="octicon octicon-link"></span></a>Sample input 1:</h2>
 
 <pre><code>6
 tuesday
@@ -61,23 +61,23 @@ saturday
 </code></pre>
 
 <h2>
-<a name="example-1-output" class="anchor" href="#example-1-output"><span class="octicon octicon-link"></span></a>Example 1 output:</h2>
+<a name="sample-output-1" class="anchor" href="#sample-output-1"><span class="octicon octicon-link"></span></a>Sample output 1:</h2>
 
 <pre><code>Sock-sess
 </code></pre>
 
 <h2>
-<a name="example-2-input" class="anchor" href="#example-2-input"><span class="octicon octicon-link"></span></a>Example 2 input:</h2>
+<a name="sample-input-2" class="anchor" href="#sample-input-2"><span class="octicon octicon-link"></span></a>Sample input 2:</h2>
 
 <pre><code>4
-redsock
 bluesock
+redsock
 bluesock
 bluesock
 </code></pre>
 
 <h2>
-<a name="example-2-output" class="anchor" href="#example-2-output"><span class="octicon octicon-link"></span></a>Example 2 output:</h2>
+<a name="sample-output-2" class="anchor" href="#sample-output-2"><span class="octicon octicon-link"></span></a>Sample output 2:</h2>
 
 <pre><code>redsock
 </code></pre>
