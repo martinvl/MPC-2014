@@ -1,5 +1,5 @@
 # The getaway driver
-Frank, a professional getaway driver, is hired to safely transport some robbers from a heist at the local bank. Getting away safely is quite easy, you just have to stay away from the police at all times. When the alarm goes off, the police always drive directly to the bank. Having a snitch within the police force, Frank knows exactly which route the police will take, so staying away from them should be easy.
+Frank, a professional getaway driver, is hired to safely transport some robbers from a heist at the local bank. Getting away safely is quite easy, you just have to stay away from the police at all times. When the alarm goes off, the police will drive to the bank. Having a snitch within the police force, Frank knows exactly which route the police are going to take, so staying away from them should be easy.
 
 Since Frank doesn't know when the police leave the police station (sometimes they are busy when alarm goes off), nor how fast they are going, he must make sure that his getaway route never intersects with the route that the police are taking (except at the bank, that is). This way he is sure he'll never get caught.
 
