@@ -9,6 +9,8 @@ The fuel tank on Albert's car is quite small, in fact, it can only take _L_ lite
 therefore he may have to buy more gas in the towns he visits on his way.
 His car spends exactly one liter of gas per length unit.
 
+![](../images/albert.png)
+
 Albert starts from his hometown at x = 0 with an empty fuel tank.
 Each town he visits has exactly one gas station, with a given fixed gas price.
 At each town he may buy as much fuel as he wants to, but he must of course not exceed the volume in the fuel tank.
