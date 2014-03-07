@@ -20,7 +20,7 @@ so Albert is worried that he may run out of gas at some point, and not be able t
 And if he is able to get there, how much will the trip cost him?
 
 
-## Input specification:
+## Input:
 The input start with one integer _L_, the volume of the fuel tank on Albert's car.
 Then follows an integer _N_, the number of towns between Albert's town and Isaac's town. (Both Albert's town and Isaac's town are included.)
 
@@ -30,7 +30,7 @@ The _N_ lines will be sorted by increasing _D_, and no two towns lie on the same
 Isaac always lives in the last town.
 
 
-## Output specification:
+## Output:
 If Albert is able to reach Isaac's hometown, output the least amount of money he needs to spend on the trip.
 Otherwise, output the string "Stay home".
 
@@ -40,7 +40,7 @@ Otherwise, output the string "Stay home".
 0 &le; _D_ &le; 1000  
 0 &le; _P_ &le; 10000
 
-## Example 1 input:
+## Sample input 1:
 ```
 2
 2
@@ -48,12 +48,12 @@ Otherwise, output the string "Stay home".
 3 0
 ```
 
-## Example 1 output:
+## Sample output 1:
 ```
 Stay home
 ```
 
-## Example 2 input:
+## Sample input 2:
 ```
 10
 6
@@ -65,7 +65,7 @@ Stay home
 28 0
 ```
 
-## Example 2 output:
+## Sample output 2:
 ```
 94
 ```
