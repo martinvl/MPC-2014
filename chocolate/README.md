@@ -1,18 +1,20 @@
 # Chocolate
 Sverre loves chocolate, and he eats a lot of it. 
-Actually, the only thing he eats is chocolate. Since chocolate is such a big
+Actually, the only thing he eats is chocolate.
+Since chocolate is such a big
 part of Sverre's life, he naturally spends much time on it, and the most time
-consuming part is of course the chocolate bar splitting. Therefore he asks you
-to help him optimizing the process.
+consuming part is of course the chocolate bar splitting.
+Therefore he asks you to help him optimizing the process.
 
 The original chocolate bar consists of _R_ rows with _C_ pieces in each row.
 Sverre has to divide it into _R_ * _C_ pieces by doing splits. 
 
-A split is a simple process. Sverre picks one of the existing chocolate bars
+A split is a simple process.
+Sverre picks one of the existing chocolate bars
 with more than one piece, and divides it into two new chocolate bars by cutting
 along one of the separator lines. 
-The split process is done until all the pieces are separated. The image below 
-shows how to separate all the pieces in a 3x2 chocolate bar with 5 splits.
+The split process is done until all the pieces are separated.
+The image below  shows how to separate all the pieces in a 3x2 chocolate bar with 5 splits.
 
 ![](../images/chocolate.png)
 
