@@ -6,7 +6,8 @@ In such a case, every person at the election would simply vote for herself.
 
 ![](../images/maps.svg)
 
-Yang (the mathematician) suggests an easy process to pick the new leader. It goes as follows:
+Yang (the mathematician) suggests an easy process to pick the new leader.
+It goes as follows:
 the _N_ candidates will place themselves at positions 1 through _N_ on a line
 and then every second person (modulo _N_ and starting at the second position)
 will consecutively be eliminated until there is only one candidate left.
@@ -22,11 +23,13 @@ follow, so the person at position 3 becomes the next leader.
 
 The board is extremely happy they now have a way to choose the new leader!
 
-Little do they know of Yang's wicked plans. Yang knows all MAPPERS to be reasonable, but he is not sure how many persons will be present at the election.
+Little do they know of Yang's wicked plans.
+Yang knows all MAPPERS to be reasonable, but he is not sure how many persons will be present at the election.
 
 ##Input specification##
 
-The input consists of _T_ lines. Each line is a possible number of candidates showing up.
+The input consists of _T_ lines.
+Each line is a possible number of candidates showing up.
 
 ##Output specification##
 For each possible number of candidates the position of the new leader.
