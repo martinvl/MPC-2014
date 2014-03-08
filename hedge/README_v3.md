@@ -33,10 +33,12 @@ For each test case, output one number on a single line, the maximal number of he
 
 ## Sample input 2
 ```
-2 3 2  
+3 2 2  
+1  
+1  
+1  
 1 1  
 1 1  
-1 1 1  
 ```
 
 ## Sample output 2
