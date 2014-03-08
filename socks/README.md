@@ -15,7 +15,7 @@ Then follows N lines contains one string. The string on line _i_ represents the 
 Output a list sorted alphabetically with all the socks Matias has to remove. If he does not need to remove any socks, output "Sock-sess"
 
 ## Constraints
-1 &le; _N_ &le; 100000  
+1 &le; _N_ &le; 10000   
 
 ## Sample input 1:
 ```
