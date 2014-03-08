@@ -1,6 +1,6 @@
 # Socks
 Matias works as a programmer, and like most programmers these days, he spends a lot of time working in his terminal window.
-When Matias is not at work, he sits at home trying to figure out what to wear at work the next day, because for Matias it is very important to be classy and look good.
+When Matias is not at work, he sits at home trying to figure out what to wear at work the next day, because for Matias it is essential to be classy and look good.
 Since the background of his terminal is black, he always wear black socks at work to make sure that he matches the computer.
 
 
