@@ -22,7 +22,7 @@ Help Matias to throw away as few socks as possible while making sure that each r
 ## Input:
 The first line of input contains one integer _N_, the number of socks Matias has.
 
-Then follows N lines contains one string.
+Then follows _N_ lines contains one string.
 The string on line _i_ represents the text written on the _i_'th sock.
 The strings will only contain the lowercase letters from the english alphabet.
 
