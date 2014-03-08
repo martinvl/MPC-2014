@@ -6,6 +6,8 @@ matter how he divides it. The number of splits needed is R * C - 1.
 """
 from sys import stdin
 
-R = int(stdin.readline())
-C = int(stdin.readline())
+line = stdin.readline();
+line = line.split();
+R = int(line[0]);
+C = int(line[1]);
 print R * C - 1
