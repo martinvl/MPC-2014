@@ -9,7 +9,7 @@ In such a case, every person at the election would simply vote for herself.
 Yang (the mathematician) suggests an easy process to pick the new leader.
 It goes as follows:
 the _N_ candidates will place themselves at positions 1 through _N_ on a line
-and then every second person (modulo _N_ and starting at the second position)
+and then every second person (modulo _N_ that is not already eliminated and starting at the second position)
 will consecutively be eliminated until there is only one candidate left.
 
 
