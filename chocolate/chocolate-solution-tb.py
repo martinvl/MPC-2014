@@ -1,3 +1,5 @@
+# @EXPECTED_RESULTS@: CORRECT
+
 from sys import stdin;
 
 #Let f(R,C) be optimal nb. of divisions.
