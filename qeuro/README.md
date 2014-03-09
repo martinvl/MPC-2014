@@ -3,7 +3,7 @@ After getting fired from several large parking operator companies you've decided
 
 ![](../images/qeuropark.png)
 
-Even though you didn't exactly excel at your previous jobs, you know what it takes as an efficient parking operator. There are three main factors affecting the success of such a company: A skilled and daring business crew, a motivated corps of inspectors and a super efficient call center, handling appeals and complaints.
+Even though you didn't exactly excel at your previous jobs, you know what it takes to be an efficient parking operator. There are three main factors affecting the success of such a company: A skilled and daring business crew, a motivated corps of inspectors and a super efficient call center, handling appeals and complaints.
 
 Seeing as you are both daring and motivated, the only thing missing is an efficient call center. This is where your programming skills come into play. Emails received at the call center typically belong to one of two categories: _complaint_ and _other_. If an email is categorized as _other_, then there's no way around taking a look at it yourself to decide if it's important. If the mail is categorized as a _complaint_ on the other hand, it's easy; complaints are rejected.
 
