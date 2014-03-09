@@ -10,9 +10,9 @@ Write a program that decides if the circuit will break or not, given one of Jan'
 ## Input
 The first line of input contains a single integer _n_, the number of wires.
 
-Then follows _n_ lines, each describing a wire. Each such line contains four integers _x<sub>1</sub>_, _y<sub>1</sub>_, _x<sub>2</sub>_, _y<sub>2</sub>_, representing a wire which goes via the points (_x<sub>1</sub>_, _y<sub>1</sub>_) and (_x<sub>2</sub>_, _y<sub>2</sub>_) on the circuit board. (_x<sub>1</sub>_, _y<sub>1</sub>_) and (_x<sub>2</sub>_, _y<sub>2</sub>_) will not be equal, and no wires will be duplicate.
+Then follows _n_ lines, each describing a wire. Each such line contains four integers _x<sub>1</sub>_, _y<sub>1</sub>_, _x<sub>2</sub>_, _y<sub>2</sub>_, representing a wire which goes through the points (_x<sub>1</sub>_, _y<sub>1</sub>_) and (_x<sub>2</sub>_, _y<sub>2</sub>_) on the circuit board. (_x<sub>1</sub>_, _y<sub>1</sub>_) and (_x<sub>2</sub>_, _y<sub>2</sub>_) will not be equal, and no wires will be duplicate.
 
-All wires extend to the end of the circuit board, so for all concerns they might be considered to be infinitely long.
+All wires extend to the end of the circuit board, so for all practical concerns they might be considered to be infinitely long.
 
 ## Output
 If the circuit will break, output `broken`, otherwise output `wire it up`.
