@@ -1,7 +1,7 @@
 # The getaway driver
 Frank, a professional getaway driver, is hired to safely transport some robbers from a heist at the local bank. Getting away safely is quite easy, you just have to stay away from the police at all times. When the alarm goes off, the police will drive to the bank. Having a snitch within the police force, Frank knows exactly which route the police are going to take, so staying away from them should be easy.
 
-Since Frank doesn't know when the police leave the police station (sometimes they are busy when alarm goes off), nor how fast they are going, he must make sure that his getaway route never intersects with the route that the police are taking (except at the bank, that is). This way he is sure he'll never get caught.
+Frank doesn't know when the police leave the police station (sometimes they are busy when the alarm goes off), nor how fast they are going. So the only way to stay entirely safe is to avoid their route all together. In practice this means that Frank cannot drive via any intersection that the police drive via (except the one at the bank, of course). This way he is sure he'll never get caught.
 
 In order to put a fair price on the job, Frank needs to now how far he has to go in order to make a safe getaway. Make a program that outputs the length (in meters) of the shortest possible route Frank can take from the bank to the rendezvous point, while still being safe. If no such route exists Frank should back away from the deal.
 
