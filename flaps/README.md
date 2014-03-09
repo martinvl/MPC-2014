@@ -7,7 +7,7 @@ In an attempt to gain more control over his landings, Maverick has come up with 
 
 ![speed formula](../images/flaps-speed-formula.png)
 
-This formula describes the speed of the aircraft at time _t_, given the landing velocity _v<sub>0</sub>_ and the flaps position _p_. The formula assumes that the aircraft touches down at _t_ = 0. Maverick doesn't know anything about formulas, but he wants to know how far the aircraft moved up the runway at time _t_, given _v<sub>0</sub>_ and _p_. The position of the aircraft is of course described by the following formula.
+This formula describes the speed of the aircraft at time _t_, given the landing velocity _v<sub>0</sub>_ and the flaps position _p_. The formula assumes that the aircraft touches down at _t_ = 0. Maverick doesn't know anything about formulas, but he wants to know how far the aircraft moved up the runway at time _t_, given _v<sub>0</sub>_ and _p_. The distance the aircraft has moved since touch down is described by the following formula.
 
 ![speed formula](../images/flaps-pos-formula.png)
 
@@ -23,7 +23,7 @@ Note: Output must have an absolute error less than 10<sup>-8</sup>. So if _s<sub
 
 ## Constraints
 0 &le; _v<sub>0</sub>_, _t_ &le; 100  
-0 &le; _p_ &le; 1
+0 < _p_ &le; 1
 
 ## Sample input 1
 ```
