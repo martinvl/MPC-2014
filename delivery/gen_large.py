@@ -1,7 +1,7 @@
 from random import randint
 
 n = 99 # must be divisible by 3
-possible = True
+possible = False
 
 packages = ['Kristiansand']*(n/3) + ['Bergen']*(n/3) + ['Trondheim']*(n/3)
 incompatible = [[False]*n for i in xrange(n)]
@@ -51,6 +51,7 @@ if not possible:
             continue
         else:
             incompatible[a][b] = True
+            incompatible[b][a] = True
             break
 
 print n
