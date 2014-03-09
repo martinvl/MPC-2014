@@ -26,13 +26,14 @@ Output a single line containing either `Possible` or `Impossible` indicating if 
 ## Sample input 1
 ```
 7
-Kristiansand 1 5 6
-Kristiansand 0 2
-Kristiansand 1 3
-Bergen 2 5
-Trondheim 6
-Bergen 1 3
-Trondheim 1 4
+Kristiansand Kristiansand Kristiansand Bergen Trondheim Bergen Trondheim
+1 5 6
+0 2
+1 3
+2 5
+6
+0 3
+0 4
 ```
 
 ## Sample output 1
@@ -42,9 +43,10 @@ Possible
 ## Sample input 2
 ```
 3
-Kristiansand 1 2
-Kristiansand 0 2
-Kristiansand 0 1
+Kristiansand Kristiansand Kristiansand
+1 2
+0 2
+0 1
 ```
 
 ## Sample output 2
