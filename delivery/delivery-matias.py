@@ -23,15 +23,18 @@ def fill(truck, currentPackage, decidedPackages, packageMap):
     for incompability in incompabilities:
         if (incompability in decidedPackages):
             if (truck == decidedPackages[incompability]):
+                del decidedPackages[currentPackage]
                 return False
             continue
         newdest, blah = packageMap[incompability]
         truckA, truckB = get_possible_trucks(newdest)
         if (truck == truckA):
-            if (fill(truckB, incompability, decidedPackages, packageMap)):
-                continue
+            if (not fill(truckB, incompability, decidedPackages, packageMap)):
+                del decidedPackages[currentPackage]
+                return False
         if (truck == truckB):
             if (not fill(truckA, incompability, decidedPackages, packageMap)):
+                del decidedPackages[currentPackage]
                 return False
         continue
     return True
@@ -45,9 +48,8 @@ while (tobedelivered):
     elem = tobedelivered.pop()
     dest, line = packageMap[elem]
     truckA, truckB = get_possible_trucks(dest)
-    decidedPackages = {}
-    if (not fill(truckA, elem, decidedPackages, packageMap)):
-        if (not fill(truckB, elem, decidedPackages, packageMap)):
+    if (not fill(truckA, elem, {}, packageMap)):
+        if (not fill(truckB, elem, {}, packageMap)):
             print "Impossible"
             break
 if (not tobedelivered):
