@@ -39,6 +39,6 @@ class Solver:
             elim[i] = True;
             i = j;
 
-for line in stdin:
-    sol = Solver();
-    print sol.solve_iter(int(line))
+line = stdin.readline();
+sol = Solver();
+print sol.solve_iter(int(line))
