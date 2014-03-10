@@ -35,7 +35,8 @@ Algorithm: Simulation or pure mathematics.
 Difficulty:  
 Problem: Torgeir  
 Quality/solutions: Torgeir  
-Solution: Vidar
+Solution: Vidar  
+Solution: Ola
 
 ## Exponentialist
 Algorithm: Exponentiation by squaring/Built-in `pow`  
