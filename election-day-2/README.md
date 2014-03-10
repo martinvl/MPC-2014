@@ -1,4 +1,4 @@
-#Election day 1#
+#Election day 2#
 
 
 ###Note:###
@@ -68,3 +68,13 @@ Output on a single line, one number, _i_, Yang's position on the initial line.
 ```
 1
 ``` 
+
+##Sample input 3##
+```
+1000000000000000
+```
+
+##Sample output 3##
+```
+874100093157377
+```
