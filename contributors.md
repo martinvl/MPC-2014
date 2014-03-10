@@ -66,7 +66,8 @@ Algorithm: BFS with predefined visits
 Difficulty: Medium  
 Problem: Martin  
 Solution: Martin  
-Solution: Vidar
+Solution: Vidar  
+Solution: Ola
 
 ## Hedge
 Algorithm: DP  
