@@ -1,5 +1,6 @@
-#Sixpack shopper 2
-(See Sixpack shopper for full description)
+# Beer shopper 2
+(See _Beer shopper_ for full introduction)
+
 It turns out Greg gets a lot of new friends by buying everybody beer, so he needs even more help finding out if there will be a fight.
 
 The situation is exactly the same as before, but this time he's got _really_ many friends.
