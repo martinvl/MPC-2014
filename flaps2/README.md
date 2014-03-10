@@ -1,9 +1,11 @@
 # Flaps on a plane 2
-It turns out Maverick needs even more help. He needs your help finding the correct flap position. As before, Maverick is assuming that the speed of the aircraft is as described by the formula below.
+(see _Flaps on a plane_ for full introduction)
+
+It turns out Maverick isn't as good as he thinks, and needs more help finding the correct flap position. As before, Maverick is assuming that the speed of the aircraft is as described by the formula below.
 
 ![speed formula](../images/flaps-speed-formula.png)
 
-For each airport, Maverick has an ideal position _s_ (relative to where the aircraft touched down) for the aircraft to stop. The stopping position of the plane is given by the formula below, which depends on _v<sub>0</sub>_ and _p_.
+For each airport, there is an ideal position _s_ (relative to where the aircraft touched down) for the aircraft to stop. The stopping position of the plane is given by the formula below, which depends on _v<sub>0</sub>_ and _p_.
 
 ![stopping position](../images/flaps-stop-pos-formula.png)
 
@@ -15,12 +17,12 @@ Input consists of a single line containing two real, positive numbers _v<sub>0</
 ## Output
 Output _p_, the position the flaps must be in for the aircraft to stop at position _s_, given _v<sub>0</sub>_, the landing speed.
 
-Note: Output must have an absolute error less than 10<sup>-8</sup>. So if _p<sub>0</sub>_ is correct, then all answers _p_ such that |_p_ - _p<sub>0</sub>_| < 10<sup>-8</sup> will be accepted. Remember to print enough decimals!
+Note: Output must have an absolute error less than 10<sup>-8</sup>. So if _p<sub>0</sub>_ is correct, then all answers _p_ such that |_p_ - _p<sub>0</sub>_| < 10<sup>-8</sup> will be accepted.
 
 ## Constraints
 0 &le; _v<sub>0</sub>_ &le; 100  
 _v<sub>0</sub>_ &le; _s_ &le; 2 _v<sub>0</sub>_  
-0 &le; _p_ &le; 1
+0 < _p_ &le; 1
 
 ## Sample input 1
 ```
