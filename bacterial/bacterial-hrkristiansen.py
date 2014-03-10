@@ -2,7 +2,7 @@
 
 import sys
 
-d, t = [int(x) for x in sys.stdin.readline().split()]
+m, n, t = [int(x) for x in sys.stdin.readline().split()]
 #print d, t
 lines = []
 try:

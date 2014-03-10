@@ -24,5 +24,5 @@ t_max = 20
 d = randint(d_min, d_max)
 t = randint(t_min, t_max)
 
-print d, t
+print d, d, t
 gen_dish(d)
