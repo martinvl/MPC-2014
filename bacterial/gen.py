@@ -1,7 +1,7 @@
 from random import random, randint
 
 cell_ratio = .02
-v_to_c = {-1:' ', 0:'.', 1:'#'}
+v_to_c = {-1:'X', 0:'.', 1:'#'}
 
 def in_circle(i, j, diam):
     rad = diam/2

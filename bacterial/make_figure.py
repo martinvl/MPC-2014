@@ -2,7 +2,7 @@ from sys import stdin
 from numpy import array, sum
 from scipy.ndimage import binary_dilation
 
-c_to_v = {'#':1, '.':0, ' ':-1}
+c_to_v = {'#':1, '.':0, 'X':-1}
 
 d, g = map(int, stdin.readline().split())
 dish = array([[c_to_v[c] for c in l.replace('\n', '')] for l in stdin])

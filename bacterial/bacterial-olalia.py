@@ -28,7 +28,7 @@ for i in range(1,d+1):
     tab[i].append(-1)
     
     for j in range(1,d+1):
-        if (j>=len(s[i-1]) or s[i-1][j-1]==' '):
+        if (j>=len(s[i-1]) or s[i-1][j-1]=='X'):
             tab[i].append(-1)
         if (j<len(s[i-1]) and s[i-1][j-1]=='#'):
             tab[i].append(0)

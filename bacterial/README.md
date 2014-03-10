@@ -11,32 +11,33 @@ An example image series of such growth can be seen below.
 +--------------------------------------------------------+
 |      Day 1       |      Day 2       |      Day 3       |
 +------------------+------------------+------------------+
-|                  |                  |                  |
-|      ......      |      ......      |      ......      |
-|    ..........    |    ..........    |    ..........    |
-|   ............   |   ............   |   ......#.....   |
-|  ..............  |  .......#......  |  ......###.....  |
-|  .......#......  |  ......###.....  |  .....#####....  |
-| ................ | ........#....... | .......###.#.... |
-| ................ | ...........#.... | ........#.###... |
-| ...........#.... | ..........###... | .........#####.. |
-| ................ | ...........#.... | ..........###... |
-| ................ | ................ | ...........#.... |
-| ................ | ................ | .....#.......... |
-|  ..............  |  ....#.........  |  ...###........  |
-|  ....#.........  |  ...###........  |  ..#####.......  |
-|   ............   |   ...#........   |   ..###.......   |
-|    ..........    |    ..........    |    ..#.......    |
-|      ......      |      ......      |      ......      |
-|                  |                  |                  |
+|XXXXXXXXXXXXXXXXXX|XXXXXXXXXXXXXXXXXX|XXXXXXXXXXXXXXXXXX|
+|XXXXXX......XXXXXX|XXXXXX......XXXXXX|XXXXXX......XXXXXX|
+|XXXX..........XXXX|XXXX..........XXXX|XXXX..........XXXX|
+|XXX............XXX|XXX............XXX|XXX......#.....XXX|
+|XX..............XX|XX.......#......XX|XX......###.....XX|
+|XX.......#......XX|XX......###.....XX|XX.....#####....XX|
+|X................X|X........#.......X|X.......###.#....X|
+|X................X|X...........#....X|X........#.###...X|
+|X...........#....X|X..........###...X|X.........#####..X|
+|X................X|X...........#....X|X..........###...X|
+|X................X|X................X|X...........#....X|
+|X................X|X................X|X.....#..........X|
+|XX..............XX|XX....#.........XX|XX...###........XX|
+|XX....#.........XX|XX...###........XX|XX..#####.......XX|
+|XXX............XXX|XXX...#........XXX|XXX..###.......XXX|
+|XXXX..........XXXX|XXXX..........XXXX|XXXX..#.......XXXX|
+|XXXXXX......XXXXXX|XXXXXX......XXXXXX|XXXXXX......XXXXXX|
+|XXXXXXXXXXXXXXXXXX|XXXXXXXXXXXXXXXXXX|XXXXXXXXXXXXXXXXXX|
 +--------------------------------------------------------+
+
 </pre>
 
 Instead of wasting time on performing tests she can predict the result for, Lisa has better things to do. Therefore she needs you to make a program that can predict the result of the test, given an image of the petri dish after day 1. To make sure her boss doesn't discover that she's not actually performing the tests, Lisa will vary the size (diameter) of the petri dishes, and the number of days between the initial and the final count.
 
 ## Input specification
 The first line of input contains two integers _d_ and _t_, the diameter of the petri dish, and the number of days the bacteria should grow before the final count.
-Then follows _d_ lines, each containing _d_ characters. These lines make up the image of the petri dish. The character `#`, `.` and `<space>` represent a bacteria cell, an empty petri dish and the outside of the petri dish, respectively.
+Then follows _d_ lines, each containing _d_ characters. These lines make up the image of the petri dish. The character `#`, `.` and `X` represent a bacteria cell, an empty petri dish and the outside of the petri dish, respectively.
 
 ## Output specification
 Output the number of bacteria cells there are in the petri dish after _t_ days of growth, given the initial state in the input.
