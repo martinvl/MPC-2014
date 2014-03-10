@@ -2,11 +2,20 @@
 
 from sys import stdin
 
-def div_by_two(num):
-    return int(num[-1]) % 2 == 0
+def is_div(num):
+    if int(num[-1]) % 2:
+        return False
 
-def div_by_three(num):
-    return sum(map(int, num)) % 3 == 0
+    e = sum(map(int, num[0::2]))
+    o = sum(map(int, num[1::2]))
+
+    if (e + o) % 9:
+        return False
+
+    if (e - o) % 11:
+        return False
+
+    return True
 
 num = stdin.readline().replace('\n', '')
-print 'BEER!' if div_by_two(num) and div_by_three(num) else 'FIGHT!'
+print 'BEER!' if is_div(num) else 'FIGHT!'
