@@ -1,4 +1,4 @@
-# @EXPECTED_RESULTS@: TIMELIMIT
+# @EXPECTED_RESULTS@: CORRECT
 
 #N log(N) solution (simulation)
 from sys import stdin;
