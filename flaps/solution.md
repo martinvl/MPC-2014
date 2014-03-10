@@ -8,4 +8,4 @@ Time shouldn't be an issue on this problem, but number of iterations in numerica
 __Difficulty__: 3  
 __Problem text__: Finished  
 __Input/output__: Finished  
-__Solutions__: martinvl
+__Solutions__: martinvl (multiple), read and approved by staalezh
