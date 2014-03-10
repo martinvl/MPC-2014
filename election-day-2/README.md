@@ -46,8 +46,9 @@ The input consists of a single number _N_ on a single line, the number of candid
 Output on a single line, one number, _i_, Yang's position on the initial line.
 
 ##Constraints##
-1 &le; _N_ &le; 10^15
-1 &le; _i_ &le; _N_.
+1 &le; _N_ &le; 10<sup>15</sup>
+
+1 &le; _i_ &le; _N_ .
 
 
 ##Sample input 1##
