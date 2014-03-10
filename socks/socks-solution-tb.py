@@ -1,3 +1,4 @@
+# @EXPECTED_RESULTS@: CORRECT
 from sys import stdin;
 
 all_socks = [];
