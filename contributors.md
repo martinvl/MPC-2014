@@ -138,7 +138,8 @@ Algorithm: Apply formula, find max of vector
 Difficulty: Medium  
 Problem: Martin  
 Solution: Martin  
-Solution: Vidar
+Solution: Vidar  
+Solution: Ola
 
 ## Socks
 Algorithm: Count frequency in list.  
