@@ -1,3 +1,4 @@
+# @EXPECTED_RESULTS@: TIMELIMIT
 from sys import stdin
 
 line = stdin.readline()
