@@ -24,8 +24,8 @@ def bfs(start, e):
 	vis[start] = True
 	q = [start]
 	while len(q)>0:
-		x = q[0]
-		q.pop(0)
+		x = q[len(q)-1]
+		q.pop()
 		vis[x] = True
 		for y in e[x]:
 			if vis[y] == False:
