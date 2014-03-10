@@ -8,4 +8,4 @@ There is plenty of time, but you need a half-decent numerical integration and ro
 __Difficulty__: 4  
 __Problem text__: Finished  
 __Input/output__: Finished  
-__Solutions__: martinvl
+__Solutions__: martinvl (multiple), read and approved by staalezh
