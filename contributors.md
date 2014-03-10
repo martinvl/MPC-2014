@@ -90,7 +90,8 @@ Solution: Ola
 Algorithm: Probability, expected value  
 Difficulty: Medium  
 Problem: Stian  
-Solution: Vidar
+Solution: Vidar  
+Solution: Ola
 
 ## Qeuro
 Algorithm: Check if line is `'Complaint'`  
