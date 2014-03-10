@@ -13,6 +13,7 @@ class Solver:
 		par = line.split();
 		self.X = int(par[0]); self.Y = int(par[1]);
 		self.M = int(par[2]);
+		print('' + str(self.X) + ' ' + str(self.Y) + ' '+str(self.M));
 
 	def read_walls(self):
 		X = self.X; Y = self.Y;
