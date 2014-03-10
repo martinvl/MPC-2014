@@ -1,3 +1,5 @@
+# @EXPECTED_RESULT@: CORRECT
+
 from sys import stdin
 T=int(stdin.readline())
 for tc in range(T):

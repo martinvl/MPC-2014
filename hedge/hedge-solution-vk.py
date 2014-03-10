@@ -1,3 +1,5 @@
+# @EXPECTED_RESULT@: CORRECT
+
 from sys import stdin
 
 # This solution uses dynamic programming.

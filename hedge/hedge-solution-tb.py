@@ -1,4 +1,4 @@
-# @EXPECTED_RESULT@:
+# @EXPECTED_RESULT@: CORRECT
 
 from sys import stdin;
 
