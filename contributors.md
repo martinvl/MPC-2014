@@ -109,7 +109,8 @@ Algorithm: Sorted set/Priority queue/Fenwick Tree
 Difficulty: Hard-ish  
 Problem: Martin  
 Solution: Martin  
-Solution: Vidar
+Solution: Vidar  
+Solution: Ola
 
 ## RPS
 Algorithm: Probability, analytical  
