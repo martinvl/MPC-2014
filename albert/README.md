@@ -37,8 +37,8 @@ Otherwise, output the string "Stay home".
 ## Constraints
 0 &le; _L_ &le; 20  
 2 &le; _N_ &le; 1000  
-0 &le; _D_ &le; 1000  
-0 &le; _P_ &le; 10000
+0 &le; _D_ &le; 100000
+0 &le; _P_ &le; 100000
 
 ## Sample input 1:
 ```
@@ -69,8 +69,4 @@ Stay home
 ```
 94
 ```
-
-
-
-
 
