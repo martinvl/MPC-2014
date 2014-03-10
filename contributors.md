@@ -5,7 +5,7 @@ Algorithm:
 Difficulty: Medium  
 Problem: Vidar  
 Quality/solutions: Torgeir  
-Quality/solutions: Vidar
+Quality/solutions: Vidar  
 Solution: Ola
 
 ## Bacterial
@@ -13,7 +13,8 @@ Algorithm: Simulation/Binary morphology
 Difficulty: Medium  
 Problem: Martin  
 Solution: Martin  
-Solution: Erlend
+Solution: Erlend  
+Solution: Ola
 
 ## Burgers
 Algorithm: Brute-force (slow)/Row reduction (fast), both accepted  
