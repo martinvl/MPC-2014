@@ -15,7 +15,7 @@ Note that this time Greg has got _really_ many friends.
 Input consists of a single line with a single integer _f_, the number of friends Greg wants to buy beer to.
 
 ## Output
-If it is possible to buy a number of boxes of beer such that the beer can be shared evenly among Greg's friends, simply output `BEER!`. Otherwise output `FIGHT!`.
+If it is possible to buy a number of boxes such that there is exactly one beer for each of Greg's friends, simply output `BEER!`. Otherwise output `FIGHT!`.
 
 ## Constraints
 0 < _f_ &le; 10<sup>10<sup>6</sup></sup>
