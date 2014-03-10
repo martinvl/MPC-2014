@@ -16,7 +16,7 @@ Make a program, that given a set of available super-spatulas, calculates the min
 ## Input
 The first line contains two integers _b_ and _s_ the number of burgers and super-spatulas, respectively.
 
-Then follows _s_ lines, each with _b_ characters _s<sub>i</sub>_, the configuration of each of the super-spatulas. _s<sub>i</sub>_ can be either `#` or `<space>`, indicating that there is a spatula at position _i_ or not, respectively. Each super-spatula can consist of anything from 0 to _b_ spatulas, inclusive. There might exist duplicate super-spatulas.
+Then follows _s_ lines, each with _b_ characters _s<sub>i</sub>_, the configuration of each of the super-spatulas. _s<sub>i</sub>_ can be either `#` or `.`, indicating that there is a spatula at position _i_ or not, respectively. Each super-spatula can consist of anything from 0 to _b_ spatulas, inclusive. There might exist duplicate super-spatulas.
 
 ## Output
 Output the lowest number of flips Spongebob must perform in order to make all the burgers have the finished side facing up. If this is impossible simply output `Impossible`.
@@ -27,12 +27,12 @@ Output the lowest number of flips Spongebob must perform in order to make all th
 ## Sample input 1
 ```
 4 6
-##  
-  ##
-## #
-#   
- #  
-   #
+##..
+..##
+##.#
+#...
+.#..
+...#
 ```
 
 ## Sample output 1
@@ -43,8 +43,8 @@ Output the lowest number of flips Spongebob must perform in order to make all th
 ## Sample input 2
 ```
 4 2
-### 
-  ##
+###.
+..##
 ```
 
 ## Sample output 2

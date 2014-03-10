@@ -4,7 +4,7 @@ from sys import stdin
 
 def parse_spatula(line):
     line = line.replace('#', '1')
-    line = line.replace(' ', '0')
+    line = line.replace('.', '0')
 
     return int(line, 2)
 
