@@ -11,7 +11,7 @@ Input consists of a single line with a single integer _f_, the number of friends
 If it is possible to buy a number of sixpacks such that the beer can be shared evenly among Greg's friends, simply output `BEER!`. Otherwise output `FIGHT!`.
 
 ## Constraints
-0 &le; _f_ &le; 10<sup>9</sup>
+0 < _f_ &le; 10<sup>9</sup>
 
 ## Sample input 1
 ```
