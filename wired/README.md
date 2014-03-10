@@ -1,11 +1,11 @@
 # Wired
-Jan, an electrician, likes to design electrical circuits. As you know, around any conductor with a current a magnetic field is induced. Jan must take this into account as he designs his electrical circuits, otherwise they might break due to forces between the wires.
+Jan, an electrician, likes to design electrical circuits. As you know, around any conductor with a current, a magnetic field is induced. Jan must take this into account when he designs his electrical circuits, otherwise they might break due to forces between the wires.
 
 ![](../images/wired.png)
 
-Unfortunately, the attachments Jan uses to fix the wires to the circuit board can only withstand lateral forces (forces that are orthagonal to the wire, that is). Taking the all the physics into account, this means that the circuit will break unless all pairs of wires are either perfectly parallell or orthogonal.
+Jan has decided to use duck tape to strap the wires to the circuit board. Unfortunately, the duck tape Jan can only withstand lateral forces (forces that are orthagonal to the wire, that is). Taking all the physics into account, this means that the circuit will break unless all pairs of wires are either perfectly parallell or orthogonal.
 
-Write a program that decides if the circuit will break or not, given one of Jan's designs.
+Write a program that decides if the circuit will break or not, given one of Jan's designs. There is no room for error, so make sure that your calculations are accurate.
 
 ## Input
 The first line of input contains a single integer _n_, the number of wires.
