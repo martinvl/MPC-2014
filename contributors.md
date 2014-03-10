@@ -20,7 +20,8 @@ Solution: Ola
 Algorithm: Brute-force (slow)/Row reduction (fast), both accepted  
 Difficulty: Medium  
 Problem: Martin  
-Solution: Martin
+Solution: Martin  
+Solution: Ola
 
 ## Chocolate
 Algorithm: No programming. Multiply two numbers. (DP is possible, but not good.)  
