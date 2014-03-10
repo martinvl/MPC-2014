@@ -23,8 +23,10 @@ original chocolate bar into _R_ * _C_ pieces.
 
 
 ## Input:
-The first line of input contains one integer _R_, the number of rows in the chocolate bar.
-The second line of input contains one integer _C_, the number of pieces in each row.
+The input consists of a single line containing two integers: _R_ and _C_.
+
+_R_ is the number of rows in the chocolate bar.
+_C_ is the number of pieces in each row.
 
 ## Output:
 Output on a single line, one number, the least number of splits needed to divide the original chocolate bar into _R_ * _C_ pieces.
