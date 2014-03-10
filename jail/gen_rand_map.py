@@ -1,9 +1,13 @@
 import sys;
 import random;
 
+#Generates random input from
+#M, N and I
+
 M = int(sys.argv[1].strip());
 N = int(sys.argv[2].strip());
 I = int(sys.argv[3].strip());
+
 
 dim = ''+ str(M) + ' ' + str(N) + ' ' + str(I)
 print(dim);
