@@ -1,6 +1,8 @@
 # Beer shopper 2
 (See _Beer shopper_ for full introduction)
 
+![](../images/beer.jpg)
+
 It turns out giving away beer for free is a great way to get new friends! Greg has made so many new friends he has trouble keeping up with demand.
 
 Luckily he has a friend working in a brewery, who has come up with a deal where Greg can buy beer in bulk. The beer from the brewery comes in boxes with `198` beers.
