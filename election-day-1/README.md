@@ -1,4 +1,12 @@
-#Election day#
+#Election day 1#
+
+
+##Note:##
+This is one of two problems named "Election day". These problems (i.e. "Election day 1" and "Election day 2") differ only by their input constraints. 
+See section "Constraints".
+
+##Problem text##
+
 
 Tomorrow is election day at MAPS and the time has come to choose a new leader for the organization.
 There is however, one problem: how to pick a leader when every reasonable person wants to be the new leader?
