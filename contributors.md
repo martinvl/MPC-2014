@@ -83,7 +83,8 @@ Solution: Vidar
 Algorithm: 2SAT  
 Difficulty: Hard  
 Problem: Martin  
-Solution: Martin
+Solution: Martin  
+Solution: Ola
 
 ## Playing dice
 Algorithm: Probability, expected value  
