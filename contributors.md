@@ -43,7 +43,8 @@ Algorithm: Exponentiation by squaring/Built-in `pow`
 Difficulty: Medium/very easy  
 Problem: Ståle  
 Solution: Ståle  
-Solution: Martin
+Solution: Martin  
+Solution: Ola
 
 ## Fiddle
 Problem: Jing  
