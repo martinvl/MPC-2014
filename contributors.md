@@ -80,7 +80,8 @@ Algorithm: Analytical
 Difficulty: Medium  
 Problem: Martin  
 Solution: Martin  
-Solution: Vidar
+Solution: Vidar  
+Solution: Ola
 
 ## Package delivery
 Algorithm: 2SAT  
