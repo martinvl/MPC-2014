@@ -124,7 +124,8 @@ Solution: Martin
 Algorithm: Divisibility check, modulo is accepted  
 Difficulty: Easy  
 Problem: Martin  
-Solution: Martin
+Solution: Martin  
+Solution: Ola
 
 ## Sixpack2
 Algorithm: Analytical divisibility check, modulo is too slow  
