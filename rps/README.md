@@ -1,13 +1,13 @@
 # Rock, paper, scissors
 
-The old game of Rock-Paper-Scissors goes as follows:  Each of two players chooses either {"Rock", "Paper", "Scissors"} and they expose their choice simultaneously.
+The old game of Rock-Paper-Scissors goes as follows:  Each of two players chooses either "Rock", "Paper", "Scissors" and they expose their choice simultaneously.
 Then if they have chosen the same sign, the game is drawn and they will have to play again.
 If not, the rules are that rock beats scissors, scissors beat paper and paper beats rock.
 
 ![](../images/rps.png)
 
 Your friend just came up with a new version of the game and it goes as follows:  You play three rounds of Rock-Paper-Scissors, where you have to use every sign exactly once during the three rounds.
-The winner is the winner of the third round.  
+The winner of the game is the winner of the third round.  
 
 Now your friend wants to try this new game with you and he wants to play for 10000 rounds.
 For each game, you will get a score of 1 point if you win, 0.5 points if you draw and 0 points if you lose.
