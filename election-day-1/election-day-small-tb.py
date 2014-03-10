@@ -1,7 +1,7 @@
 # @EXPECTED_RESULTS@: TIMELIMIT
 
 #N log(N) solution (simulation)
-
+from sys import stdin;
 elim = [False];
 
 
@@ -38,12 +38,9 @@ class Solver:
 			i = j;
 
 
+line = stdin.readline().strip();
+N = int(line);
 sol = Solver(); 
-N=100000;
-it = 1;
-i = 0;
-while(i<it):
-	s = sol.solve_iter(N);
-	i+=1;
-print(s);
+ans = sol.solve_iter(N);
+print(ans);
 
