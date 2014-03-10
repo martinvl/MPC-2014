@@ -27,11 +27,11 @@ The first line of input contains one integer _R_, the number of rows in the choc
 The second line of input contains one integer _C_, the number of pieces in each row.
 
 ## Output:
-Output one number, the least number of splits needed to divide the original chocolate bar into _R_ * _C_ pieces.
+Output on a single line, one number, the least number of splits needed to divide the original chocolate bar into _R_ * _C_ pieces.
 
 ## Constraints
-1 &le; _R_ &le; 10<sup>4</sup>  
-1 &le; _C_ &le; 10<sup>4</sup>
+1 &le; _R_ &le; 10<sup>5</sup>  
+1 &le; _C_ &le; 10<sup>5</sup>
 
 ## Sample input 1:
 ```
@@ -55,4 +55,3 @@ Output one number, the least number of splits needed to divide the original choc
 ```
 15
 ```
-
