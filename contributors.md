@@ -101,7 +101,8 @@ Solution: Ola
 Algorithm: Check if line is `'Complaint'`  
 Difficulty: Super easy (_the_ easiest)  
 Problem: Martin  
-Solution: Martin
+Solution: Martin  
+Solution: Ola
 
 ## Railway
 Algorithm: Sorted set/Priority queue/Fenwick Tree  
