@@ -31,7 +31,7 @@ Output a list sorted alphabetically with all the socks Matias has to remove.
 If he does not need to remove any socks, output "Sock-sess"
 
 ## Constraints
-1 &le; _N_ &le; 10000   
+1 &le; _N_ &le; 100
 
 ## Sample input 1:
 ```
