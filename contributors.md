@@ -151,7 +151,8 @@ Solution: Ola
 
 ## Traveling
 Problem: Jing  
-Solution: Jing (?)
+Solution: Jing (?)  
+Solution: Ola
 
 ## Wired
 Algorithm: Check if all lines either parallell or normal (integer precision required), this is (exactly) one equivalence class so O(n) comparison is required  
