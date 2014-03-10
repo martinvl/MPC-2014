@@ -1,5 +1,5 @@
 
-#Albert#
+#Albert T#
 
 ##Time complexity##
 Optimal seems to be max(O(NL), O(NlogN)).
@@ -14,8 +14,7 @@ Difficulty = 4.
 
 ##Remaining work##
 -Tune parameter _N_
--Fix larger test cases? N ->
+-Fix larger test cases? N -> up to 10000
 -Control check IO
-
-
+-Torgeir: fix generator
 
