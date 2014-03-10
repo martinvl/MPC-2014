@@ -6,6 +6,7 @@ Difficulty: Medium
 Problem: Vidar  
 Quality/solutions: Torgeir  
 Quality/solutions: Vidar
+Solution: Ola
 
 ## Bacterial
 Algorithm: Simulation/Binary morphology  
