@@ -40,5 +40,5 @@ BEER!
 
 ## Sample output 3
 ```
-FIGHT
+FIGHT!
 ```
