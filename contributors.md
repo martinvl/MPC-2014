@@ -27,7 +27,8 @@ Solution: Ola
 Algorithm: No programming. Multiply two numbers. (DP is possible, but not good.)  
 Difficulty: Very easy  
 Problem: Vidar  
-Solution: Vidar
+Solution: Vidar  
+Solution: Ola
 
 ## Election day
 Algorithm: Simulation or pure mathematics.  
