@@ -35,39 +35,33 @@ Little do they know of Yang's wicked plans.
 Yang knows all MAPPERS to be reasonable, but he is not sure how many persons will be present at the election.
 
 ##Input specification##
-
-The input consists of _T_ lines.
-Each line is a possible number of candidates showing up.
+The input consists of a single number _N_ one a single line.
+_N_ is the number of candidates showing up.
 
 ##Output specification##
-For each possible number of candidates the position of the new leader.
+For each _N_, output a single line containing one number, _i_, the position of the new leader.
 
 
 ##Constraints##
-1 &le;_T_ &le; 400
-
-Small input:
 1 &le; _N_ &le; 10^5
-
-Large input:
-1 &le; _N_ &le; 10^15
-
-
-Output:
-For each entry _N_ in the table output the position _i_ where Yang would place himself.
-
 1 &le; _i_ &le; _N_.
 
 
-##Sample input##
+##Sample input 1##
 ```
-1
-3
 5
 ```
-##Sample output:##
+##Sample output 1##
+```
+3
+```
+
+ 
+##Sample input 1##
 ```
 1
-3
-3
+```
+##Sample output 1##
+```
+1
 ``` 
