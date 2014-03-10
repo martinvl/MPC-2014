@@ -1,4 +1,4 @@
-#Sixpack shopper
+# Beer shopper
 Greg is a good guy, who likes to look after his friends. Being a good guy means Greg has to buy beers for his friends all the time. 
 As we all know beer comes in sixpacks, so Greg has to buy beers in multiples of six. Greg wants share exactly one beer with each of his friends, because if someone gets more than onethere will be lots of fighting. Needless to say, leaving one or more beers undrunken is out of the question.
 
