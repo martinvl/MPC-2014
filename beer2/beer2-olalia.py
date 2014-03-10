@@ -1,4 +1,4 @@
-# @EXPECTED_RESULTS@: CORRECT
+# @EXPECTED_RESULTS@: WRONG-ANSWER
 
 from sys import stdin
 n=stdin.readline().split()[0]
