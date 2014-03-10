@@ -146,7 +146,8 @@ Algorithm: Count frequency in list.
 Difficulty: Easy  
 Problem: Vidar  
 Solution: Vidar  
-Solution: Martin
+Solution: Martin  
+Solution: Ola
 
 ## Traveling
 Problem: Jing  
