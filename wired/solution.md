@@ -8,4 +8,4 @@ Must have overall complexity less than O(n<sup>2</sup>), should have O(n) but O(
 __Difficulty__: 3  
 __Problem text__: Finished  
 __Input/output__: Finished  
-__Solutions__: martinvl
+__Solutions__: martinvl (multiple), read and approved by staalezh
