@@ -60,4 +60,8 @@ So when p = 2/3 and q = 2/3, we will gain 1 point per pair of (CASE 2, CASE 3), 
 expected number of points = 10000 * 0.5 = 5000, and in almost all cases, one gets more than 4750 points.
 
 
+Conclusion:
+===========
+Without adding the probability in this problem, one cannot do as good as needed. Most people would do (2 b _) in CASE 2, and (2 c _) in CASE 3. 
+But if you do this and meet an opponent which always plays (2 a _) in CASE 2 and (2 b _) in CASE 3, then you will loose more than you win.
 
