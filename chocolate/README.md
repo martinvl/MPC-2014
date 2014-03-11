@@ -37,8 +37,7 @@ Output on a single line, one number, the least number of splits needed to divide
 
 ## Sample input 1:
 ```
-3
-2
+3 2
 ```
 
 ## Sample output 1:
@@ -49,8 +48,7 @@ Output on a single line, one number, the least number of splits needed to divide
 
 ## Sample input 2:
 ```
-4
-4
+4 4
 ```
 
 ## Sample output 2:
