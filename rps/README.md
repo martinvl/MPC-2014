@@ -11,8 +11,7 @@ The winner of the game is the winner of the third round.
 
 Now your friend wants to try this new game with you and he wants to play for 10000 rounds.
 For each game, you will get a score of 1 point if you win, 0.5 points if you draw and 0 points if you lose.
-You don't want to make a fool of yourself, so you want to score more than 4750 points in (almost) any case.
-Your task is to write a program for achieving this.
+You don't want to make a fool of yourself, so you want to score more than 4750 points in (almost) any case. In other words, you want to beat your friend for each possible strategy he may choose. Your task is to write a program for achieving this.
 
 ## Input
 The first line of input will contain an integer _T_, the number of test cases.
