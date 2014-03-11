@@ -12,7 +12,7 @@ Tomorrow is election day at MAPS and the time has come to choose a new leader fo
 There is, however, one problem: how to pick a leader when every reasonable person wants to be the new leader?
 In such a case, every person at the election would simply vote for herself.
 
-![](../images/maps.svg)
+![](../images/maps_resized.png)
 
 Yang (the mathematician) suggests an easy process to pick the new leader.
 It goes as follows:
