@@ -19,7 +19,7 @@ Input consists of a single line containing three real, positive numbers _v<sub>0
 ## Output
 Output the position of the plane at time _t_ if the flaps are in position _p_ and the landing velocity is _v<sub>0</sub>_.
 
-Note: Output must have an absolute error less than 10<sup>-8</sup>. So if _s<sub>0</sub>_ is correct, then all answers _s_ such that |_s_ - _s<sub>0</sub>_| < 10<sup>-8</sup> will be accepted. Remember to print enough decimals!
+Note: Output must have an absolute error less than 10<sup>-7</sup>. So if _s<sub>0</sub>_ is correct, then all answers _s_ such that |_s_ - _s<sub>0</sub>_| < 10<sup>-7</sup> will be accepted.
 
 ## Constraints
 0 &le; _v<sub>0</sub>_, _t_ &le; 100  

@@ -17,7 +17,7 @@ Input consists of a single line containing two real, positive numbers _v<sub>0</
 ## Output
 Output _p_, the position the flaps must be in for the aircraft to stop at position _s_, given _v<sub>0</sub>_, the landing speed.
 
-Note: Output must have an absolute error less than 10<sup>-8</sup>. So if _p<sub>0</sub>_ is correct, then all answers _p_ such that |_p_ - _p<sub>0</sub>_| < 10<sup>-8</sup> will be accepted.
+Note: Output must have an absolute error less than 10<sup>-7</sup>. So if _p<sub>0</sub>_ is correct, then all answers _p_ such that |_p_ - _p<sub>0</sub>_| < 10<sup>-7</sup> will be accepted.
 
 ## Constraints
 0 &le; _v<sub>0</sub>_ &le; 100  
