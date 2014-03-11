@@ -1,11 +1,15 @@
 # Package delivery
 Rune is a logistics manager at _Posten_'s regional office in Oslo. He is responsible for the packages going from Oslo to Kristiansand, Bergen and Trondheim. One of Rune's tasks is to assign each package to a suitable truck, and needs your help in doing so.
 
-![](../images/delivery.png)
-
 Rune has access to three trucks, so he can easily send a truck to each of the three cities. The problem is that not all types of packages can be put on the same truck. For instance, you don't put a package of dynamite on a truck loaded with a shipment of matches. If two types of packages can't be on the same truck, Rune calls them _incompatible_.
 
-In an attempt to accommodate the incompatibility issue, Rune sends each to truck to two destinations, instead of one. One truck drives to Kristiansand and Bergen, another drives to Bergen and Trondheim and a third truck drives to Trondheim and Kristiansand.
+In an attempt to accommodate this incompatibility issue, Rune has made a route through two cities (instead of just one) for each truck. He assigns the following routes to the trucks:
+
+![](../images/delivery.png)
+
+__Truck 1__: Oslo &#8594; Bergen &#8594; Trondheim (the _blue_ route)  
+__Truck 2__: Oslo &#8594; Trondheim &#8594; Kristiansand (the _red_ route)  
+__Truck 3__: Oslo &#8594; Kristiansand &#8594; Bergen (the _green_ route)
 
 Your task is to create a program that calculates if it is possible to ship a given set of packages to their destinations with this setup.
 
