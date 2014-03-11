@@ -11,7 +11,7 @@ Since the super-spatula only barely fits inside the oven, he can't slide it over
 
 Of course, it's not always as simple as in the case above. Sometimes the super-spatulas overlap, so burgers are flipped more than once. This is OK, as long as the burgers end up with the finished side facing up when Spongebob is done flipping.
 
-Make a program, that given a set of available super-spatulas, calculates the minimal number of flips Spongebob must make in order to flip all the burgers so they are facing up with the finished side.
+Make a program that given a set of available super-spatulas, calculates the minimal number of flips Spongebob must make in order to flip all the burgers so they are facing up with the finished side.
 
 ## Input
 The first line contains two integers _b_ and _s_ the number of burgers and super-spatulas, respectively.
