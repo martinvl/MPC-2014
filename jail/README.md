@@ -46,5 +46,22 @@ Output one number on a single line, the maximal number of inmates that may reach
 3  
 ```
 
+## Sample input 2 ##
+```
+4 5 1
+1 1 0
+1 1 1
+0 0 1
+1 0 0
+0 0 0
+0 0 0 0
+0 0 0 0
+1 0 1 1
+1 0 1 1
+```
 
+##Sample output 2 ##
+```
+1
+```
 
