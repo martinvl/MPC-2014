@@ -5,10 +5,10 @@ However, together with your inmates, you have deviced a plan to escape the priso
 
 In order to safely escape to the pickup car waiting, which will bring you and your comrades to freedom, you must cross the prison yard.
 The prison yard is a rectangular grid of dimensions _M_ times _N_ divided into unit squares.
-You and your inmates are at the _(0,0)_ square, and you want to get to the pickup car which will be at _(M-1, N-1)_.
+You and your inmate friends are at the _(0,0)_ square, and you want to get to the pickup car which will be at _(M-1, N-1)_.
 However, the prison guards will be chasing you.
 When escaping, you will not necessarily take optimal decisions.
-In fact, you know you will always increase exactly one your coordinates by _1_ at each step, minimizing the total number of steps.
+In fact, you know you will always increase exactly one your coordinates by _1_ at each step, running towards the rendez-vous point.
 This makes things a bit difficult, but luckily, your inmates will sacrifice themselves for your freedom.
 Whenever you encounter a wall, on of your inmates will stay behind to help all the others climb over.
 
@@ -29,7 +29,7 @@ Output one number on a single line, the maximal number of inmates that may reach
 ## Constraints
 2 &le; _M_,_N_ &le; 300  
 
-2 &le; _I_ &le; 10<sup>9</sup>
+1 &le; _I_ &le; 10<sup>9</sup>
 
 ## Sample input 1
 ```
@@ -45,5 +45,6 @@ Output one number on a single line, the maximal number of inmates that may reach
 ```
 3  
 ```
+
 
 
