@@ -1,8 +1,8 @@
 # @EXPECTED_RESULTS@: CORRECT
 
 """
-Just calculating the best option for each of the three cases (win, loose and
-draw) on the first match by hand.
+Decides what to do in each of the three possible cases. In two of them I have to 
+make one choice 1/3 time, and the other 2/3 of the time. See rps-analysis.md
 """
 from sys import stdin
 import random
