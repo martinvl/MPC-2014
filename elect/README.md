@@ -17,7 +17,7 @@ In such a case, every person at the election would simply vote for herself.
 Yang (the mathematician) suggests an easy process to pick the new leader.
 It goes as follows:
 the _N_ candidates will place themselves at positions 1 through _N_ on a line. 
-Then every second person (starting at the second person) is consecutively eliminated.
+Then every second person (starting at the second position) is consecutively eliminated.
 The eliminated candidates then leave the line with the remaining candidates taking positions 1, 2, ... .
 If the last person on the previous line was eliminated, the process restarts as before on the second person.
 If not the process restarts on the first person.
@@ -28,7 +28,7 @@ For example, if _N_=5 the candidate's initial positions are 1,2,3,4 and 5.
 The first candidates to be eliminated are at positions
 2 and 4.
 They leave the line.
-Then candidate 1 goes to position 1, candidate 3 goes to position 2 and candidate 5 goes to position 3, so the new line will consist of positions 1,2 and 3.
+Then candidate at position 1 stays, the candidate at 3 goes to position 2 and the candidate at 5 goes to position 3, so the new line will consist of positions 1,2 and 3.
 The process then restarts at position 1.
 The candidates at positions 1 and 3 are now eliminated.
 There is only one candidate remaining, on position 2.
