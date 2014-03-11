@@ -11,42 +11,42 @@ class Solver:
 	def read_parameters(self):
 		line = stdin.next();
 		par = line.split();
-		self.X = int(par[0]); self.Y = int(par[1]);
-		self.M = int(par[2]);
+		self.M = int(par[0]); self.N = int(par[1]);
+		self.I = int(par[2]);
 
 	def read_walls(self):
-		X = self.X; Y = self.Y;
+		M = self.M; N = self.N;
 		self.vertical = [];
 		self.horizontal = [];
-		self.dp = [[0 for x in range(X)] for y in range(Y)];
-		self.dp[0][0] = self.M;
+		self.dp = [[0 for m in range(M)] for n in range(N)];
+		self.dp[0][0] = self.I;
 	
-		for y in range(Y):
+		for n in range(N):
 			line = stdin.next();
 			self.vertical.append([int(w) for w in line.split()]);
-		for y in range(Y-1):
+		for n in range(N-1):
 			line = stdin.next();
 			self.horizontal.append([int(w) for w in line.split()]);
 
-	def calc_opt(self, x,y):
-		if(x == 0 and y == 0):
+	def calc_opt(self, m,n):
+		if(m == 0 and n == 0):
 			return;
-		self.dp[y][x] = max(self.left(x,y), self.over(x,y),0);
+		self.dp[n][m] = max(self.left(m,n), self.over(m,n),0);
 
-	def over(self, x, y):
-		if(y == 0):
+	def over(self, m, n):
+		if(n == 0):
 			return 0;
-		return self.dp[y-1][x]-self.horizontal[y-1][x];
+		return self.dp[n-1][m]-self.horizontal[n-1][m];
 
-	def left(self,x,y):
-		if(x==0):
+	def left(self,m,n):
+		if(m==0):
 			return 0;
-		return self.dp[y][x-1] -self.vertical[y][x-1];
+		return self.dp[n][m-1] -self.vertical[n][m-1];
 
 	def ans(self):
-		for x in range(self.X):
-			for y in range(self.Y):
-				self.calc_opt(x,y);
+		for m in range(self.M):
+			for n in range(self.N):
+				self.calc_opt(m,n);
 		return self.dp[-1][-1];
 
 
