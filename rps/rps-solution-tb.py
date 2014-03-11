@@ -1,3 +1,4 @@
+# @EXPECTED_RESULTS@: WRONG-ANSWER
 from sys import stdin;
 import random;
 
