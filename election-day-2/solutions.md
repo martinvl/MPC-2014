@@ -6,6 +6,8 @@
 ##IO##
 Good. election-day.large input cases for this problem.
 
+Sample IO given in text is also found in files election-day.sample.
+
 ##Text##
 Need second opinion.
 
