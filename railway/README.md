@@ -1,7 +1,9 @@
 # Railway management
-The young nation of Utopia have recently finished building their first railway, running all the way from the capital Aipotu to the city of Erewhon. The railway is split into _n_ segments, numbered from `0` to `n - 1`, where Aipotu is located at segment `0` and Erewhon is located at segment `n - 1`. Along the railway there are many small cities and villages, each connected to their own railway segment. All of the trains depart either from Aipotu or Erewhon, since all the other cities along the railway are too small to have their own train yard.
+The young nation of Utopia have recently finished building their first railway, running all the way from the capital Aipotu to the city of Erewhon. The railway is split into _n_ segments, numbered from `0` to `n - 1`, where Aipotu is located at segment `0` and Erewhon is located at segment `n - 1`. Along the railway there are many small cities and villages, each connected to some railway segment. All of the trains depart either from Aipotu or Erewhon, since all the other cities along the railway are too small to have their own train yard.
 
-Since the utopians are quite inexperienced in the art of operating a railway, there tends to be quite a few problems with the rails, or broken trains blocking the railway and so on. Therefore they need you to build an information system that can tell them whether a particular village currently is reachable from either terminal station.
+![](../images/railway.png)
+
+Since the utopians are quite inexperienced in the art of operating a railway, there tends to be quite a few problems with the rails, or broken trains blocking the railway and so on. Therefore they need you to build an information system that can tell them whether a particular rail segment currently is reachable from either terminal station.
 
 The system will receive three types of messages:
 
