@@ -95,5 +95,5 @@ XXXXXXXXXXXXXX
 
 ## Sample output 2
 ```
-39
+40
 ```
