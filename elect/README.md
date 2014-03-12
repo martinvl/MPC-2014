@@ -1,11 +1,11 @@
-#Election day 1#
+# Election day 1
 
 
-###Note:###
+### Note:
 This is one of two problems named "Election day". These problems (i.e. "Election day 1" and "Election day 2") differ only by their input constraints. 
 See section "Constraints".
 
-##Problem text##
+## Problem text
 
 
 Tomorrow is election day at MAPS and the time has come to choose a new leader for the organization.
@@ -39,33 +39,33 @@ The board is extremely happy they now have a way to choose a new leader!
 Little do the board know of Yang's wicked plans.
 He will calculate the position of the new leader on the initial line and place himself there.
 
-##Input specification##
+## Input specification
 The input consists of a single number _N_ on a single line, the number of candidates showing up.
 
-##Output specification##
+## Output specification
 Output on a single line, one number, _i_, Yang's position on the initial line.
 
-##Constraints##
+## Constraints
 1 &le; _N_ &le; 10<sup>5</sup>
 
 1 &le; _i_ &le; _N_ .
 
 
-##Sample input 1##
+## Sample input 1
 ```
 5
 ```
-##Sample output 1##
+## Sample output 1
 ```
 3
 ```
 
  
-##Sample input 2##
+## Sample input 2
 ```
 1
 ```
-##Sample output 2##
+## Sample output 2
 ```
 1
 ``` 
