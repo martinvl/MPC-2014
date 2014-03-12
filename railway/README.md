@@ -1,4 +1,4 @@
-# Railway management
+# Railway management [hard]
 The young nation of Utopia have recently finished building their first railway, running all the way from the capital Aipotu to the city of Erewhon. The railway is split into _n_ segments, numbered from `0` to `n - 1`, where Aipotu is located at segment `0` and Erewhon is located at segment `n - 1`. Along the railway there are many small cities and villages, each connected to some railway segment. All of the trains depart either from Aipotu or Erewhon, since all the other cities along the railway are too small to have their own train yard.
 
 ![](../images/railway.png)
