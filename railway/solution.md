@@ -9,7 +9,7 @@ A third way is to use a [Fenwick tree](http://en.wikipedia.org/wiki/Fenwick_tree
 
 Overall complexity is O(_k_ log _n_).
 
-__Difficulty__: 3  
+__Difficulty__: 5  
 __Problem text__: Finished  
 __Input/output__: Finished  
 __Solutions__: martinvl, olalia, vidar
