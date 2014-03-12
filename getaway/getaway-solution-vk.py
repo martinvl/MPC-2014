@@ -1,3 +1,5 @@
+# @EXPECTED_RESULTS@: CORRECT
+
 import Queue
 import pprint
 from sys import stdin
