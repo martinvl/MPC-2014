@@ -74,7 +74,7 @@ XXXXXXXXXXXXXXXXXX
 39
 ```
 
-## Sample input 1
+## Sample input 2
 ```
 14 14 2
 XXXXXXXXXXXXXX
@@ -93,7 +93,7 @@ XXXXXXXXXXXXXX
 .........XXXXX
 ```
 
-## Sample output 1
+## Sample output 2
 ```
 39
 ```
