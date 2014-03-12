@@ -5,7 +5,7 @@ Jan, an electrician, likes to design electrical circuits. As you know, around an
 
 Jan has decided to use duck tape to strap the wires to the circuit board. Unfortunately, the duck tape Jan can only withstand lateral forces (forces that are orthagonal to the wire, that is). Taking all the physics into account, this means that the circuit will break unless all pairs of wires are either perfectly parallell or orthogonal.
 
-Write a program that decides if the circuit will break or not, given one of Jan's designs. There is no room for error, so make sure that your calculations are accurate.
+Write a program that decides if the circuit will break or not, given one of Jan's designs. There is no room for error, so make sure that your calculations are accurate (i.e. don't use any floats!).
 
 ## Input
 The first line of input contains a single integer _n_, the number of wires.
