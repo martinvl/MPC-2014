@@ -1,4 +1,4 @@
-# Beer shopper
+# Beer shopper [easy]
 ![](../images/beer.jpg)
 
 Greg is a good guy, who likes to look after his friends. Being a good guy means Greg has to buy beers for his friends all the time. 
