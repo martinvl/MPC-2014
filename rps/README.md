@@ -1,4 +1,4 @@
-# Rock, paper, scissors
+# Rock, paper, scissors [hard]
 
 The old game of Rock-Paper-Scissors goes as follows:  Each of two players chooses either "Rock", "Paper", "Scissors" and they expose their choice simultaneously.
 Then if they have chosen the same sign, the game is drawn and they will have to play again.
