@@ -2,4 +2,4 @@
 
 from sys import stdin
 
-print 'BEER!' if int(stdin.readline()) % 6 == 0 else 'FIGHT!'
+print 'FIGHT!' if int(stdin.readline()) % 6 else 'BEER!'
